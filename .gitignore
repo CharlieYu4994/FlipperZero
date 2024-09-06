@@ -33,3 +33,6 @@ fp-info-cache
 
 # OSX files
 .DS_Store
+
+# VSCode
+.VSCode
