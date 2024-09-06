@@ -3,6 +3,7 @@
 # Format documentation: https://kicad.org/help/file-formats/
 
 # Temporary files
+\#auto_saved_files#
 *.000
 *.bak
 *.bck
@@ -17,6 +18,7 @@ _autosave-*
 *-save.pro
 *-save.kicad_pcb
 fp-info-cache
+*.lck
 
 # Netlist files (exported from Eeschema)
 *.net

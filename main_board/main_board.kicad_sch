@@ -149,36 +149,6 @@
 				(justify left top)
 			)
 		)
-		(pin "I2C_SDA" input
-			(at 204.47 125.73 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "ccb011d6-88e2-491c-9800-fc3b78564f4c")
-		)
-		(pin "I2C_SCL" input
-			(at 204.47 123.19 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "cc01d19c-0ec7-4a57-8ce3-47bf2f2a9be4")
-		)
-		(pin "PERI_EN" input
-			(at 204.47 128.27 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "e4bca023-9384-4975-aa87-4cf8cb410a2b")
-		)
 		(pin "BTN_BACK" input
 			(at 204.47 134.62 180)
 			(effects
@@ -188,6 +158,36 @@
 				(justify left)
 			)
 			(uuid "218ae6a1-8349-4ec0-9bd2-75d936442def")
+		)
+		(pin "I2C_SCL" input
+			(at 204.47 124.46 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7baa6907-ac13-4b52-ae2a-894c46302a12")
+		)
+		(pin "I2C_SDA" bidirectional
+			(at 204.47 127 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9d591b4c-b2a5-413d-9f31-a0df8195ac86")
+		)
+		(pin "PERI_EN" input
+			(at 204.47 129.54 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "37c803e1-3312-4530-8e99-0be83a04fe34")
 		)
 		(instances
 			(project "main_board"
