@@ -6114,7 +6114,7 @@
 		)
 		(uuid "9a332618-a08d-4d71-96e3-b69ed13eb67e")
 	)
-	(text "SWITCHING MODE POWER SUPPLY"
+	(text "SYSTEM POWER"
 		(exclude_from_sim yes)
 		(at 12.7 120.65 0)
 		(effects
@@ -13720,7 +13720,7 @@
 				(justify left top)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "10K"
 			(at 196.85 81.28 90)
 			(effects
 				(font
