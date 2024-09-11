@@ -1312,28 +1312,28 @@
 				)
 			)
 		)
-		(symbol "Library:SAFEA2G45MC0F0A"
+		(symbol "Library:DLF162500LT-5028A1"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "FL"
-				(at 0 11.43 0)
+				(at 0 10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "SAFEA2G45MC0F0A"
-				(at 0 8.89 0)
+			(property "Value" "DLF162500LT-5028A1"
+				(at 0 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "Filter:Filter_1411-5_1.4x1.1mm"
-				(at 0 0 0)
+			(property "Footprint" ""
+				(at 0 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1342,7 +1342,7 @@
 				)
 			)
 			(property "Datasheet" ""
-				(at 0 0 0)
+				(at 0 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1351,7 +1351,7 @@
 				)
 			)
 			(property "Description" ""
-				(at 0 0 0)
+				(at 0 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1359,7 +1359,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "SAFEA2G45MC0F0A_1_1"
+			(symbol "DLF162500LT-5028A1_1_1"
 				(rectangle
 					(start -6.35 6.35)
 					(end 6.35 -6.35)
@@ -1503,10 +1503,10 @@
 						)
 					)
 				)
-				(pin passive line
-					(at -5.08 -10.16 90)
-					(length 3.81) hide
-					(name "GND"
+				(pin output line
+					(at 10.16 0 180)
+					(length 3.81)
+					(name "OUT"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1521,10 +1521,10 @@
 						)
 					)
 				)
-				(pin output line
-					(at 10.16 0 180)
-					(length 3.81)
-					(name "OUT"
+				(pin passive line
+					(at -5.08 -10.16 90)
+					(length 3.81) hide
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1532,42 +1532,6 @@
 						)
 					)
 					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -10.16 90)
-					(length 3.81) hide
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -10.16 90)
-					(length 3.81) hide
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -10139,87 +10103,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Library:SAFEA2G45MC0F0A")
-		(at 76.2 92.71 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f2c5abb0-3394-43de-8303-47096108a613")
-		(property "Reference" "FL1"
-			(at 76.2 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SAFEA2G45MC0F0A"
-			(at 76.2 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Filter:Filter_1411-5_1.4x1.1mm"
-			(at 76.2 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 76.2 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 76.2 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8e631c92-f093-4e0b-b3f5-28c72ce8f893")
-		)
-		(pin "2"
-			(uuid "b9805464-d747-4c52-81d8-965f2167ace7")
-		)
-		(pin "5"
-			(uuid "7207da66-0ecd-4e2d-8149-1daba06965af")
-		)
-		(pin "4"
-			(uuid "3ed7745a-dbbc-4e42-b85e-77a08c0c22cb")
-		)
-		(pin "6"
-			(uuid "6eab5a12-0eed-4858-a55c-23f1142f0317")
-		)
-		(pin "3"
-			(uuid "473c5c9a-ff6a-48b4-9328-e2976b7e8f8b")
-		)
-		(instances
-			(project ""
-				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/8225a072-bd5c-4ab0-988a-5acfd87a3b3a"
-					(reference "FL1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 119.38 81.28 0)
 		(unit 1)
@@ -10280,6 +10163,81 @@
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/8225a072-bd5c-4ab0-988a-5acfd87a3b3a"
 					(reference "#PWR068")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Library:DLF162500LT-5028A1")
+		(at 76.2 92.71 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fad07b0d-90b2-4943-8f9a-c7053ecb9966")
+		(property "Reference" "FL1"
+			(at 76.2 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DLF162500LT-5028A1"
+			(at 76.2 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 76.2 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "27252e32-64bb-4e14-869c-c04eeb78a3c1")
+		)
+		(pin "2"
+			(uuid "3ade7b04-4f3a-4428-ad08-040546070a72")
+		)
+		(pin "4"
+			(uuid "7fc43f19-f054-442b-ae2d-d7abcf8aa02f")
+		)
+		(pin "3"
+			(uuid "64ed34f0-36ca-41f1-96f3-cac9cdc06ac2")
+		)
+		(instances
+			(project ""
+				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/8225a072-bd5c-4ab0-988a-5acfd87a3b3a"
+					(reference "FL1")
 					(unit 1)
 				)
 			)

@@ -7,6 +7,16 @@
 	(lib_symbols)
 	(wire
 		(pts
+			(xy 166.37 87.63) (xy 204.47 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "052865c0-40a3-4cd5-ab67-5208498d63c0")
+	)
+	(wire
+		(pts
 			(xy 166.37 119.38) (xy 204.47 119.38)
 		)
 		(stroke
@@ -17,6 +27,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 82.55) (xy 204.47 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25dcb5fb-4a91-441b-a27c-b294d68f6596")
+	)
+	(wire
+		(pts
 			(xy 166.37 114.3) (xy 204.47 114.3)
 		)
 		(stroke
@@ -24,6 +44,16 @@
 			(type default)
 		)
 		(uuid "330d607e-cde2-4e74-a6ca-01a6855b3c7a")
+	)
+	(wire
+		(pts
+			(xy 166.37 80.01) (xy 204.47 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42a0e5f4-00ec-4c06-8a3b-d2764aa080f5")
 	)
 	(wire
 		(pts
@@ -57,6 +87,26 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 73.66) (xy 204.47 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdfa62e2-0714-4319-b1d8-689191a96688")
+	)
+	(wire
+		(pts
+			(xy 166.37 85.09) (xy 204.47 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e82f799b-6da2-4622-9bab-6aa0487b71c3")
+	)
+	(wire
+		(pts
 			(xy 142.24 135.89) (xy 142.24 143.51)
 		)
 		(stroke
@@ -64,6 +114,16 @@
 			(type default)
 		)
 		(uuid "f329e7e0-2cf0-45ed-b1c5-cf55d955039a")
+	)
+	(wire
+		(pts
+			(xy 166.37 77.47) (xy 204.47 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8b0e918-f17c-4570-829a-8e6b573d5c22")
 	)
 	(wire
 		(pts
@@ -180,6 +240,66 @@
 				)
 				(justify left top)
 			)
+		)
+		(pin "RF_SW_0" input
+			(at 204.47 73.66 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2f70d750-cd29-410c-af0d-b634d9ee7b78")
+		)
+		(pin "CC1101_CS" input
+			(at 204.47 77.47 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7e3af772-3fb6-460b-af5d-1f4e73585403")
+		)
+		(pin "SPI_R_MISO" output
+			(at 204.47 82.55 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d1a8fba3-b6ee-441a-96f3-be8951e32ec3")
+		)
+		(pin "SPI_R_MOSI" input
+			(at 204.47 80.01 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8c84ef06-ea21-4aaa-b365-474cdf92c753")
+		)
+		(pin "SPI_R_SCK" input
+			(at 204.47 85.09 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1e6345d6-5411-4080-855d-ef62698b2cc7")
+		)
+		(pin "CC1101_G0" bidirectional
+			(at 204.47 87.63 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "52b570e6-80dc-4667-9485-2a4fdb8a8d13")
 		)
 		(instances
 			(project "main_board"
