@@ -31,7 +31,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://cdn.ttm.com/repository/products/wireless-xinger/balun-transformers/B0310J50100AHF/B0310J50100AHF.pdf"
 			(at 0 -3.81 0)
 			(effects
 				(font
@@ -200,7 +200,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BGS13S4N9-DS-v01_00-EN.pdf"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2003,7 +2003,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/rf/rf/filter/catalog/rf_lpf_dlf162500lt-5028a1_en.pdf"
 			(at 0 7.62 0)
 			(effects
 				(font
@@ -2426,7 +2426,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lp5562.pdf"
 			(at 6.35 16.51 0)
 			(effects
 				(font
@@ -2708,7 +2708,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 6.35 0)
 			(effects
 				(font
@@ -2823,7 +2823,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 11.43 0)
 			(effects
 				(font

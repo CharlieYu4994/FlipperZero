@@ -1180,7 +1180,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 0 27.94 0)
+				(at 0 22.86 0)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -1188,7 +1188,7 @@
 				)
 			)
 			(property "Value" "BQ25896RTWR"
-				(at 0 25.4 0)
+				(at 0 20.32 0)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -1202,6 +1202,7 @@
 						(size 1.27 1.27)
 						(italic yes)
 					)
+					(hide yes)
 				)
 			)
 			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/bq25896.pdf"
@@ -1211,6 +1212,7 @@
 						(size 1.27 1.27)
 						(italic yes)
 					)
+					(hide yes)
 				)
 			)
 			(property "Description" ""
@@ -2180,7 +2182,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "~"
 				(at 0 6.35 0)
 				(effects
 					(font
@@ -11307,7 +11309,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 119.38 130.81 0)
 			(effects
 				(font
