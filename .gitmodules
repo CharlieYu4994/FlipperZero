@@ -1,0 +1,4 @@
+[submodule "flipperzero-firmware"]
+	path = flipperzero-firmware
+	url = https://github.com/shilapi/flipperzero-firmware
+	branch = dev
