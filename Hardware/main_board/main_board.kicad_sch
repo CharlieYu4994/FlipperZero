@@ -37,6 +37,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 45.72) (xy 204.47 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c3aa4f9-c952-404e-9e5a-99439769ad2c")
+	)
+	(wire
+		(pts
 			(xy 166.37 114.3) (xy 204.47 114.3)
 		)
 		(stroke
@@ -77,6 +87,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 48.26) (xy 204.47 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cbea223-b28e-42d1-8eb9-45a2c0f611e1")
+	)
+	(wire
+		(pts
 			(xy 186.69 143.51) (xy 186.69 124.46)
 		)
 		(stroke
@@ -94,6 +114,26 @@
 			(type default)
 		)
 		(uuid "cdfa62e2-0714-4319-b1d8-689191a96688")
+	)
+	(wire
+		(pts
+			(xy 166.37 53.34) (xy 204.47 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf659f2a-fb69-42ce-9879-7f59fd4321f7")
+	)
+	(wire
+		(pts
+			(xy 166.37 43.18) (xy 204.47 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e12073c5-0f6e-4b4a-b9a8-8bdcbc6eca38")
 	)
 	(wire
 		(pts
@@ -124,6 +164,16 @@
 			(type default)
 		)
 		(uuid "f8b0e918-f17c-4570-829a-8e6b573d5c22")
+	)
+	(wire
+		(pts
+			(xy 166.37 50.8) (xy 204.47 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fad4647e-3b4a-4558-92aa-0aebca5a675d")
 	)
 	(wire
 		(pts
@@ -202,6 +252,66 @@
 				)
 				(justify left top)
 			)
+		)
+		(pin "LCD_LED" input
+			(at 204.47 40.64 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "841e9207-1d90-4185-9f60-180693847768")
+		)
+		(pin "DISPLAY_RST" input
+			(at 204.47 50.8 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3e8dbb59-1525-43cd-bc30-1454f7a219e7")
+		)
+		(pin "DISPLAY_CS" input
+			(at 204.47 48.26 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7c513168-4d92-4957-9aad-ab4f18e4ead0")
+		)
+		(pin "DISPLAY_DI" input
+			(at 204.47 53.34 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a144d305-c3a0-4c3c-b1db-10c16fd8374a")
+		)
+		(pin "SPI_D_MOSI" input
+			(at 204.47 43.18 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5f56bb69-7149-448e-a1cf-c1048ee5bdd9")
+		)
+		(pin "SPI_D_SCK" input
+			(at 204.47 45.72 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e1a3b76f-4022-4b67-a7a3-114a4acae63e")
 		)
 		(instances
 			(project "main_board"
