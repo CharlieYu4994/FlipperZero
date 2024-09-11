@@ -2400,6 +2400,139 @@
 				)
 			)
 		)
+		(symbol "Device:Fuse"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "F"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fuse"
+				(at -1.905 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Fuse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "fuse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*Fuse*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Fuse_0_1"
+				(rectangle
+					(start -0.762 -2.54)
+					(end 0.762 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Fuse_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:LED_ABGR"
 			(pin_names
 				(offset 0) hide)
@@ -2891,152 +3024,6 @@
 						)
 					)
 					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Device:Polyfuse"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "F"
-				(at -2.54 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Polyfuse"
-				(at 2.54 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 1.27 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "resettable fuse PTC PPTC polyfuse polyswitch"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*polyfuse* *PTC*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Polyfuse_0_1"
-				(rectangle
-					(start -0.762 2.54)
-					(end 0.762 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 2.54) (xy -1.524 1.524) (xy 1.524 -1.524) (xy 1.524 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Polyfuse_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7530,7 +7517,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "02317174-3a44-4421-ae85-67f24434c50a")
-		(property "Reference" "R40"
+		(property "Reference" "R45"
 			(at 193.04 46.99 90)
 			(effects
 				(font
@@ -7548,7 +7535,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 195.834 45.974 90)
 			(effects
 				(font
@@ -7584,7 +7571,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/07054158-43be-4dab-a684-c4a4bca9b970"
-					(reference "R40")
+					(reference "R45")
 					(unit 1)
 				)
 			)
@@ -7616,7 +7603,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Card:microSD_HC_Molex_104031-0811"
 			(at 292.1 34.29 0)
 			(effects
 				(font
@@ -7692,7 +7679,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e9def7e-057a-483f-9fe4-b9803337bbcf")
-		(property "Reference" "#PWR0132"
+		(property "Reference" "#PWR0128"
 			(at 270.51 109.22 0)
 			(effects
 				(font
@@ -7742,7 +7729,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/07054158-43be-4dab-a684-c4a4bca9b970"
-					(reference "#PWR0132")
+					(reference "#PWR0128")
 					(unit 1)
 				)
 			)
@@ -7757,7 +7744,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "14a0164e-daed-40d4-8822-42071685ad7d")
-		(property "Reference" "D17"
+		(property "Reference" "D20"
 			(at 25.4 167.64 0)
 			(effects
 				(font
@@ -7775,7 +7762,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
 			(at 26.67 167.64 0)
 			(effects
 				(font
@@ -7811,7 +7798,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/07054158-43be-4dab-a684-c4a4bca9b970"
-					(reference "D17")
+					(reference "D20")
 					(unit 1)
 				)
 			)
@@ -7827,7 +7814,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "16021d4b-e522-4c59-9417-6192298b515e")
-		(property "Reference" "#PWR0133"
+		(property "Reference" "#PWR0127"
 			(at 264.16 109.22 0)
 			(effects
 				(font
@@ -7877,7 +7864,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/07054158-43be-4dab-a684-c4a4bca9b970"
-					(reference "#PWR0133")
+					(reference "#PWR0127")
 					(unit 1)
 				)
 			)
@@ -7892,7 +7879,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "16fbe83f-f979-40e0-8870-1aa3417ce576")
-		(property "Reference" "R45"
+		(property "Reference" "R39"
 			(at 161.29 36.83 90)
 			(effects
 				(font
@@ -7910,7 +7897,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 161.544 35.306 90)
 			(effects
 				(font
@@ -7946,7 +7933,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/07054158-43be-4dab-a684-c4a4bca9b970"
-					(reference "R45")
+					(reference "R39")
 					(unit 1)
 				)
 			)
@@ -7961,7 +7948,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1bc8e711-7529-41b1-a3bb-c0b9f42c0fb0")
-		(property "Reference" "R36"
+		(property "Reference" "R42"
 			(at 203.2 36.83 90)
 			(effects
 				(font
@@ -7979,7 +7966,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 203.454 35.306 90)
 			(effects
 				(font
@@ -8015,7 +8002,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/07054158-43be-4dab-a684-c4a4bca9b970"
-					(reference "R36")
+					(reference "R42")
 					(unit 1)
 				)
 			)
@@ -8031,7 +8018,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2697df97-dee3-4fd9-ab4e-92e41ecbd1e0")
-		(property "Reference" "#PWR0120"
+		(property "Reference" "#PWR0124"
 			(at 261.62 72.39 0)
 			(effects
 				(font
@@ -8081,7 +8068,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/07054158-43be-4dab-a684-c4a4bca9b970"
-					(reference "#PWR0120")
+					(reference "#PWR0124")
 					(unit 1)
 				)
 			)
@@ -8190,7 +8177,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2cc2e8c9-30c9-4311-b41b-3cec28904d18")
-		(property "Reference" "D30"
+		(property "Reference" "D31"
 			(at 154.94 167.64 0)
 			(effects
 				(font
@@ -8208,7 +8195,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
 			(at 156.21 167.64 0)
 			(effects
 				(font
@@ -8244,14 +8231,14 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/07054158-43be-4dab-a684-c4a4bca9b970"
-					(reference "D30")
+					(reference "D31")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:Polyfuse")
+		(lib_id "Device:Fuse")
 		(at 83.82 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8277,13 +8264,12 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" ""
-			(at 85.09 121.92 0)
+		(property "Footprint" "Fuse:Fuse_0402_1005Metric"
+			(at 82.042 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -8296,7 +8282,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
+		(property "Description" "Fuse"
 			(at 83.82 116.84 0)
 			(effects
 				(font
@@ -8347,7 +8333,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
 			(at 162.56 74.93 0)
 			(effects
 				(font
@@ -8398,7 +8384,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "356a3173-e3fc-4e72-a3de-22cd1ae86551")
-		(property "Reference" "D20"
+		(property "Reference" "D23"
 			(at 48.26 167.64 0)
 			(effects
 				(font
@@ -8416,7 +8402,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
 			(at 49.53 167.64 0)
 			(effects
 				(font
@@ -8452,7 +8438,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/07054158-43be-4dab-a684-c4a4bca9b970"
-					(reference "D20")
+					(reference "D23")
 					(unit 1)
 				)
 			)
@@ -8468,7 +8454,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "362b128c-6515-4c44-b0b2-cc83709a4022")
-		(property "Reference" "J5"
+		(property "Reference" "J7"
 			(at 92.71 137.1599 0)
 			(effects
 				(font
@@ -8540,7 +8526,7 @@
 		(instances
 			(project ""
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/07054158-43be-4dab-a684-c4a4bca9b970"
-					(reference "J5")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -8555,7 +8541,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "424cf194-3792-4653-9bcc-e177888c38b1")
-		(property "Reference" "TP37"
+		(property "Reference" "TP47"
 			(at 140.97 121.92 90)
 			(effects
 				(font
@@ -8574,7 +8560,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 146.05 124.46 0)
 			(effects
 				(font
@@ -8607,7 +8593,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/07054158-43be-4dab-a684-c4a4bca9b970"
-					(reference "TP37")
+					(reference "TP47")
 					(unit 1)
 				)
 			)
@@ -8622,7 +8608,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4df947ec-2c3a-4d56-8c3d-81e9d91df8bc")
-		(property "Reference" "D23"
+		(property "Reference" "D19"
 			(at 97.79 116.84 0)
 			(effects
 				(font
@@ -8640,7 +8626,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
 			(at 99.06 116.84 0)
 			(effects
 				(font
@@ -8676,7 +8662,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/07054158-43be-4dab-a684-c4a4bca9b970"
-					(reference "D23")
+					(reference "D19")
 					(unit 1)
 				)
 			)
@@ -8691,7 +8677,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "55c99d08-9f4e-4f86-b33e-2f4300680aa1")
-		(property "Reference" "R43"
+		(property "Reference" "R37"
 			(at 146.05 36.83 90)
 			(effects
 				(font
@@ -8709,7 +8695,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 146.304 35.306 90)
 			(effects
 				(font
@@ -8745,7 +8731,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/07054158-43be-4dab-a684-c4a4bca9b970"
-					(reference "R43")
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -8760,7 +8746,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5775933a-524f-47bb-83c3-8e0ee8c760c0")
-		(property "Reference" "R37"
+		(property "Reference" "R43"
 			(at 213.36 36.83 90)
 			(effects
 				(font
@@ -8778,7 +8764,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 213.614 35.306 90)
 			(effects
 				(font
@@ -8814,7 +8800,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/07054158-43be-4dab-a684-c4a4bca9b970"
-					(reference "R37")
+					(reference "R43")
 					(unit 1)
 				)
 			)
@@ -8829,7 +8815,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "57b74828-cb3b-4f6d-bf15-b2270ae7f4b6")
-		(property "Reference" "D29"
+		(property "Reference" "D30"
 			(at 147.32 167.64 0)
 			(effects
 				(font
@@ -8847,7 +8833,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
 			(at 148.59 167.64 0)
 			(effects
 				(font
@@ -8883,7 +8869,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/07054158-43be-4dab-a684-c4a4bca9b970"
-					(reference "D29")
+					(reference "D30")
 					(unit 1)
 				)
 			)
@@ -8898,7 +8884,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "63563608-d086-4dc8-946b-1ea124f1a57f")
-		(property "Reference" "RN3"
+		(property "Reference" "RN2"
 			(at 171.45 124.46 90)
 			(effects
 				(font
@@ -8916,7 +8902,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0402"
 			(at 161.29 130.81 0)
 			(effects
 				(font
@@ -8970,7 +8956,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/07054158-43be-4dab-a684-c4a4bca9b970"
-					(reference "RN3")
+					(reference "RN2")
 					(unit 1)
 				)
 			)
@@ -8985,7 +8971,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "64e59c0a-418f-4bb4-b007-551221088359")
-		(property "Reference" "TP36"
+		(property "Reference" "TP46"
 			(at 133.35 121.92 90)
 			(effects
 				(font
@@ -9004,7 +8990,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 138.43 124.46 0)
 			(effects
 				(font
@@ -9037,7 +9023,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/07054158-43be-4dab-a684-c4a4bca9b970"
-					(reference "TP36")
+					(reference "TP46")
 					(unit 1)
 				)
 			)
@@ -9052,7 +9038,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "67e254ec-acc3-4dd6-8692-2df6aa2bcf6b")
-		(property "Reference" "D27"
+		(property "Reference" "D28"
 			(at 132.08 167.64 0)
 			(effects
 				(font
@@ -9070,7 +9056,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
 			(at 133.35 167.64 0)
 			(effects
 				(font
@@ -9106,7 +9092,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/07054158-43be-4dab-a684-c4a4bca9b970"
-					(reference "D27")
+					(reference "D28")
 					(unit 1)
 				)
 			)
@@ -9121,7 +9107,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6ad5bf85-ed95-4e19-805b-bf5e46ce6c58")
-		(property "Reference" "D25"
+		(property "Reference" "D26"
 			(at 116.84 167.64 0)
 			(effects
 				(font
@@ -9139,7 +9125,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
 			(at 118.11 167.64 0)
 			(effects
 				(font
@@ -9175,7 +9161,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/07054158-43be-4dab-a684-c4a4bca9b970"
-					(reference "D25")
+					(reference "D26")
 					(unit 1)
 				)
 			)
@@ -9208,7 +9194,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 91.44 124.46 0)
 			(effects
 				(font
@@ -9259,7 +9245,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7f7a19c1-596f-4b98-973c-13338718b143")
-		(property "Reference" "D26"
+		(property "Reference" "D27"
 			(at 124.46 167.64 0)
 			(effects
 				(font
@@ -9277,7 +9263,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
 			(at 125.73 167.64 0)
 			(effects
 				(font
@@ -9313,7 +9299,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/07054158-43be-4dab-a684-c4a4bca9b970"
-					(reference "D26")
+					(reference "D27")
 					(unit 1)
 				)
 			)
@@ -9329,7 +9315,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "807eebe5-b21f-47b0-a5b5-535de5feb96e")
-		(property "Reference" "#PWR0123"
+		(property "Reference" "#PWR0126"
 			(at 166.37 87.63 0)
 			(effects
 				(font
@@ -9379,7 +9365,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/07054158-43be-4dab-a684-c4a4bca9b970"
-					(reference "#PWR0123")
+					(reference "#PWR0126")
 					(unit 1)
 				)
 			)
@@ -9395,7 +9381,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "850e28d9-d237-492c-823d-7a3a6d79cc80")
-		(property "Reference" "#PWR0128"
+		(property "Reference" "#PWR0131"
 			(at 180.34 118.11 0)
 			(effects
 				(font
@@ -9445,7 +9431,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/07054158-43be-4dab-a684-c4a4bca9b970"
-					(reference "#PWR0128")
+					(reference "#PWR0131")
 					(unit 1)
 				)
 			)
@@ -9478,7 +9464,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
 			(at 185.42 74.93 0)
 			(effects
 				(font
@@ -9529,7 +9515,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "8a91312f-e8f0-467c-9c7f-31ceee7fd5c8")
-		(property "Reference" "R46"
+		(property "Reference" "R40"
 			(at 168.91 36.83 90)
 			(effects
 				(font
@@ -9547,7 +9533,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 169.164 35.306 90)
 			(effects
 				(font
@@ -9583,7 +9569,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/07054158-43be-4dab-a684-c4a4bca9b970"
-					(reference "R46")
+					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -9616,7 +9602,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
 			(at 170.18 74.93 0)
 			(effects
 				(font
@@ -9667,7 +9653,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8de06336-f9d7-4915-9d2e-959dbccbbfaa")
-		(property "Reference" "TP44"
+		(property "Reference" "TP38"
 			(at 247.65 109.22 90)
 			(effects
 				(font
@@ -9686,7 +9672,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 252.73 111.76 0)
 			(effects
 				(font
@@ -9719,7 +9705,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/07054158-43be-4dab-a684-c4a4bca9b970"
-					(reference "TP44")
+					(reference "TP38")
 					(unit 1)
 				)
 			)
@@ -9734,7 +9720,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "905f5aca-8be0-472d-9e67-338459bd555d")
-		(property "Reference" "TP45"
+		(property "Reference" "TP39"
 			(at 250.19 109.22 90)
 			(effects
 				(font
@@ -9753,7 +9739,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 255.27 111.76 0)
 			(effects
 				(font
@@ -9786,7 +9772,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/07054158-43be-4dab-a684-c4a4bca9b970"
-					(reference "TP45")
+					(reference "TP39")
 					(unit 1)
 				)
 			)
@@ -9801,7 +9787,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "957db08d-c7ba-4b26-87f4-facc78026e37")
-		(property "Reference" "D31"
+		(property "Reference" "D32"
 			(at 162.56 167.64 0)
 			(effects
 				(font
@@ -9819,7 +9805,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
 			(at 163.83 167.64 0)
 			(effects
 				(font
@@ -9855,7 +9841,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/07054158-43be-4dab-a684-c4a4bca9b970"
-					(reference "D31")
+					(reference "D32")
 					(unit 1)
 				)
 			)
@@ -9870,7 +9856,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9986d893-4c0b-47d6-a68f-56c00c861d48")
-		(property "Reference" "R38"
+		(property "Reference" "R48"
 			(at 193.04 64.77 90)
 			(effects
 				(font
@@ -9888,7 +9874,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 195.834 63.754 90)
 			(effects
 				(font
@@ -9924,7 +9910,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/07054158-43be-4dab-a684-c4a4bca9b970"
-					(reference "R38")
+					(reference "R48")
 					(unit 1)
 				)
 			)
@@ -9940,7 +9926,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9bb53231-0d0e-4216-a2dc-1c5676d93de5")
-		(property "Reference" "#PWR0121"
+		(property "Reference" "#PWR0119"
 			(at 135.89 30.48 0)
 			(effects
 				(font
@@ -9990,7 +9976,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/07054158-43be-4dab-a684-c4a4bca9b970"
-					(reference "#PWR0121")
+					(reference "#PWR0119")
 					(unit 1)
 				)
 			)
@@ -10005,7 +9991,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9d3c45bf-619c-4c76-9887-2f5db821366e")
-		(property "Reference" "R39"
+		(property "Reference" "R44"
 			(at 193.04 44.45 90)
 			(effects
 				(font
@@ -10023,7 +10009,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 195.834 43.434 90)
 			(effects
 				(font
@@ -10059,7 +10045,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/07054158-43be-4dab-a684-c4a4bca9b970"
-					(reference "R39")
+					(reference "R44")
 					(unit 1)
 				)
 			)
@@ -10075,7 +10061,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e342bb3-96de-421a-ad39-d74bdfecff68")
-		(property "Reference" "#PWR0122"
+		(property "Reference" "#PWR0123"
 			(at 209.55 54.61 0)
 			(effects
 				(font
@@ -10126,7 +10112,7 @@
 		(instances
 			(project ""
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/07054158-43be-4dab-a684-c4a4bca9b970"
-					(reference "#PWR0122")
+					(reference "#PWR0123")
 					(unit 1)
 				)
 			)
@@ -10141,7 +10127,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9f7a8337-3b93-44da-a8d2-73588c4e85e6")
-		(property "Reference" "TP40"
+		(property "Reference" "TP34"
 			(at 237.49 109.22 90)
 			(effects
 				(font
@@ -10160,7 +10146,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 242.57 111.76 0)
 			(effects
 				(font
@@ -10193,7 +10179,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/07054158-43be-4dab-a684-c4a4bca9b970"
-					(reference "TP40")
+					(reference "TP34")
 					(unit 1)
 				)
 			)
@@ -10208,7 +10194,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9fd12882-24fb-4869-b73c-845bd539697f")
-		(property "Reference" "R49"
+		(property "Reference" "R50"
 			(at 260.35 127 90)
 			(effects
 				(font
@@ -10226,7 +10212,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 263.144 125.984 90)
 			(effects
 				(font
@@ -10262,7 +10248,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/07054158-43be-4dab-a684-c4a4bca9b970"
-					(reference "R49")
+					(reference "R50")
 					(unit 1)
 				)
 			)
@@ -10296,7 +10282,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 53.34 34.5948 0)
 			(effects
 				(font
@@ -10347,7 +10333,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a5b5ee47-9629-4f0c-bdfb-938782f01b8e")
-		(property "Reference" "TP35"
+		(property "Reference" "TP45"
 			(at 125.73 121.92 90)
 			(effects
 				(font
@@ -10366,7 +10352,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 130.81 124.46 0)
 			(effects
 				(font
@@ -10399,7 +10385,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/07054158-43be-4dab-a684-c4a4bca9b970"
-					(reference "TP35")
+					(reference "TP45")
 					(unit 1)
 				)
 			)
@@ -10432,7 +10418,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0402"
 			(at 62.23 130.81 0)
 			(effects
 				(font
@@ -10502,7 +10488,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a80cec31-5beb-4b23-9d1e-facac5b4e9ca")
-		(property "Reference" "#PWR0124"
+		(property "Reference" "#PWR0134"
 			(at 83.82 154.94 0)
 			(effects
 				(font
@@ -10552,7 +10538,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/07054158-43be-4dab-a684-c4a4bca9b970"
-					(reference "#PWR0124")
+					(reference "#PWR0134")
 					(unit 1)
 				)
 			)
@@ -10567,7 +10553,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a81764e4-3e27-4ebc-a8e1-8e5aef97fd22")
-		(property "Reference" "D21"
+		(property "Reference" "D24"
 			(at 55.88 167.64 0)
 			(effects
 				(font
@@ -10585,7 +10571,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
 			(at 57.15 167.64 0)
 			(effects
 				(font
@@ -10621,7 +10607,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/07054158-43be-4dab-a684-c4a4bca9b970"
-					(reference "D21")
+					(reference "D24")
 					(unit 1)
 				)
 			)
@@ -10637,7 +10623,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a981625a-3445-4762-9e6b-b967e3168c2b")
-		(property "Reference" "#PWR0135"
+		(property "Reference" "#PWR0129"
 			(at 208.28 110.49 0)
 			(effects
 				(font
@@ -10687,7 +10673,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/07054158-43be-4dab-a684-c4a4bca9b970"
-					(reference "#PWR0135")
+					(reference "#PWR0129")
 					(unit 1)
 				)
 			)
@@ -10702,7 +10688,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aed102d2-b526-46dc-ba16-1f152480ad4a")
-		(property "Reference" "R50"
+		(property "Reference" "R49"
 			(at 227.33 109.22 90)
 			(effects
 				(font
@@ -10720,7 +10706,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 230.124 108.204 90)
 			(effects
 				(font
@@ -10756,7 +10742,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/07054158-43be-4dab-a684-c4a4bca9b970"
-					(reference "R50")
+					(reference "R49")
 					(unit 1)
 				)
 			)
@@ -10771,7 +10757,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b2db1d75-b3dc-4a2a-8122-fe4ffe7ff0b4")
-		(property "Reference" "RN2"
+		(property "Reference" "RN3"
 			(at 72.39 147.32 90)
 			(effects
 				(font
@@ -10789,7 +10775,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0402"
 			(at 62.23 140.97 0)
 			(effects
 				(font
@@ -10843,7 +10829,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/07054158-43be-4dab-a684-c4a4bca9b970"
-					(reference "RN2")
+					(reference "RN3")
 					(unit 1)
 				)
 			)
@@ -10858,7 +10844,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b82c4e77-97bd-4d29-9301-ac8e9ad3008c")
-		(property "Reference" "TP39"
+		(property "Reference" "TP48"
 			(at 148.59 121.92 90)
 			(effects
 				(font
@@ -10877,7 +10863,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 153.67 124.46 0)
 			(effects
 				(font
@@ -10910,7 +10896,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/07054158-43be-4dab-a684-c4a4bca9b970"
-					(reference "TP39")
+					(reference "TP48")
 					(unit 1)
 				)
 			)
@@ -10926,7 +10912,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b8747b5a-da7a-4197-9e71-ff2e4f180849")
-		(property "Reference" "#PWR0125"
+		(property "Reference" "#PWR0137"
 			(at 45.72 180.34 0)
 			(effects
 				(font
@@ -10976,7 +10962,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/07054158-43be-4dab-a684-c4a4bca9b970"
-					(reference "#PWR0125")
+					(reference "#PWR0137")
 					(unit 1)
 				)
 			)
@@ -10991,7 +10977,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b94dd2ae-0251-4d82-83b6-cf408c6f7aae")
-		(property "Reference" "TP42"
+		(property "Reference" "TP36"
 			(at 242.57 109.22 90)
 			(effects
 				(font
@@ -11010,7 +10996,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 247.65 111.76 0)
 			(effects
 				(font
@@ -11043,7 +11029,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/07054158-43be-4dab-a684-c4a4bca9b970"
-					(reference "TP42")
+					(reference "TP36")
 					(unit 1)
 				)
 			)
@@ -11058,7 +11044,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b95c3f25-a718-4a12-b593-da4926138d66")
-		(property "Reference" "TP49"
+		(property "Reference" "TP42"
 			(at 257.81 109.22 90)
 			(effects
 				(font
@@ -11077,7 +11063,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 262.89 111.76 0)
 			(effects
 				(font
@@ -11110,7 +11096,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/07054158-43be-4dab-a684-c4a4bca9b970"
-					(reference "TP49")
+					(reference "TP42")
 					(unit 1)
 				)
 			)
@@ -11125,7 +11111,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ba74efc4-cb65-4847-9c78-50eeafe82cf6")
-		(property "Reference" "R41"
+		(property "Reference" "R46"
 			(at 193.04 52.07 90)
 			(effects
 				(font
@@ -11143,7 +11129,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 195.834 51.054 90)
 			(effects
 				(font
@@ -11179,7 +11165,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/07054158-43be-4dab-a684-c4a4bca9b970"
-					(reference "R41")
+					(reference "R46")
 					(unit 1)
 				)
 			)
@@ -11194,7 +11180,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bb8208ab-54b8-406d-9ce5-54f42e81855e")
-		(property "Reference" "D18"
+		(property "Reference" "D21"
 			(at 33.02 167.64 0)
 			(effects
 				(font
@@ -11212,7 +11198,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
 			(at 34.29 167.64 0)
 			(effects
 				(font
@@ -11248,7 +11234,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/07054158-43be-4dab-a684-c4a4bca9b970"
-					(reference "D18")
+					(reference "D21")
 					(unit 1)
 				)
 			)
@@ -11264,7 +11250,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be318fbf-143f-4f06-a37f-ad40b62a9e30")
-		(property "Reference" "#PWR0130"
+		(property "Reference" "#PWR0135"
 			(at 185.42 154.94 0)
 			(effects
 				(font
@@ -11314,7 +11300,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/07054158-43be-4dab-a684-c4a4bca9b970"
-					(reference "#PWR0130")
+					(reference "#PWR0135")
 					(unit 1)
 				)
 			)
@@ -11329,7 +11315,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c21f2887-916c-42c6-9bb6-0637540a7d13")
-		(property "Reference" "R48"
+		(property "Reference" "R36"
 			(at 140.97 27.94 90)
 			(effects
 				(font
@@ -11347,7 +11333,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 142.494 28.194 90)
 			(effects
 				(font
@@ -11383,7 +11369,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/07054158-43be-4dab-a684-c4a4bca9b970"
-					(reference "R48")
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -11399,7 +11385,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c7ae850a-3a33-45ea-89c3-c0699f3f4e3c")
-		(property "Reference" "#PWR0134"
+		(property "Reference" "#PWR0136"
 			(at 276.86 163.83 0)
 			(effects
 				(font
@@ -11449,7 +11435,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/07054158-43be-4dab-a684-c4a4bca9b970"
-					(reference "#PWR0134")
+					(reference "#PWR0136")
 					(unit 1)
 				)
 			)
@@ -11466,7 +11452,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cbd998f2-0249-410d-a6f7-64c18e359004")
-		(property "Reference" "#PWR0117"
+		(property "Reference" "#PWR0121"
 			(at 45.72 35.56 0)
 			(effects
 				(font
@@ -11517,7 +11503,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/07054158-43be-4dab-a684-c4a4bca9b970"
-					(reference "#PWR0117")
+					(reference "#PWR0121")
 					(unit 1)
 				)
 			)
@@ -11533,7 +11519,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ccb50baf-15a0-42f2-aeab-34b297641f6c")
-		(property "Reference" "#PWR0129"
+		(property "Reference" "#PWR0132"
 			(at 196.85 115.57 0)
 			(effects
 				(font
@@ -11584,7 +11570,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/07054158-43be-4dab-a684-c4a4bca9b970"
-					(reference "#PWR0129")
+					(reference "#PWR0132")
 					(unit 1)
 				)
 			)
@@ -11599,7 +11585,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ccce8067-e2f1-41e9-bd0e-631300fabb9e")
-		(property "Reference" "TP48"
+		(property "Reference" "TP43"
 			(at 260.35 109.22 90)
 			(effects
 				(font
@@ -11618,7 +11604,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 265.43 111.76 0)
 			(effects
 				(font
@@ -11651,7 +11637,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/07054158-43be-4dab-a684-c4a4bca9b970"
-					(reference "TP48")
+					(reference "TP43")
 					(unit 1)
 				)
 			)
@@ -11667,7 +11653,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cd64d993-dd9c-4ddd-80c7-541738410cac")
-		(property "Reference" "#PWR0116"
+		(property "Reference" "#PWR0120"
 			(at 63.5 38.1 0)
 			(effects
 				(font
@@ -11717,7 +11703,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/07054158-43be-4dab-a684-c4a4bca9b970"
-					(reference "#PWR0116")
+					(reference "#PWR0120")
 					(unit 1)
 				)
 			)
@@ -11732,7 +11718,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cdf1d523-d3ac-494a-a3eb-69dc241af858")
-		(property "Reference" "TP47"
+		(property "Reference" "TP41"
 			(at 255.27 109.22 90)
 			(effects
 				(font
@@ -11751,7 +11737,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 260.35 111.76 0)
 			(effects
 				(font
@@ -11784,7 +11770,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/07054158-43be-4dab-a684-c4a4bca9b970"
-					(reference "TP47")
+					(reference "TP41")
 					(unit 1)
 				)
 			)
@@ -11799,7 +11785,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d30db63c-1a9e-4f97-83fd-11c000951cbc")
-		(property "Reference" "R42"
+		(property "Reference" "R47"
 			(at 193.04 57.15 90)
 			(effects
 				(font
@@ -11817,7 +11803,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 195.834 56.134 90)
 			(effects
 				(font
@@ -11853,7 +11839,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/07054158-43be-4dab-a684-c4a4bca9b970"
-					(reference "R42")
+					(reference "R47")
 					(unit 1)
 				)
 			)
@@ -11886,7 +11872,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
 			(at 177.8 74.93 0)
 			(effects
 				(font
@@ -11955,7 +11941,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
 			(at 154.94 74.93 0)
 			(effects
 				(font
@@ -12007,7 +11993,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d89ee398-5828-4f1b-b253-e9d74856ce38")
-		(property "Reference" "#PWR0126"
+		(property "Reference" "#PWR0130"
 			(at 83.82 114.3 0)
 			(effects
 				(font
@@ -12057,7 +12043,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/07054158-43be-4dab-a684-c4a4bca9b970"
-					(reference "#PWR0126")
+					(reference "#PWR0130")
 					(unit 1)
 				)
 			)
@@ -12073,7 +12059,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dad1922a-d8df-4f14-ab6b-3eef3378a1b5")
-		(property "Reference" "#PWR0131"
+		(property "Reference" "#PWR0138"
 			(at 140.97 180.34 0)
 			(effects
 				(font
@@ -12123,7 +12109,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/07054158-43be-4dab-a684-c4a4bca9b970"
-					(reference "#PWR0131")
+					(reference "#PWR0138")
 					(unit 1)
 				)
 			)
@@ -12139,7 +12125,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dc7c801c-3653-4119-a505-bc9ce8d48c74")
-		(property "Reference" "#PWR0127"
+		(property "Reference" "#PWR0133"
 			(at 99.06 132.08 0)
 			(effects
 				(font
@@ -12189,7 +12175,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/07054158-43be-4dab-a684-c4a4bca9b970"
-					(reference "#PWR0127")
+					(reference "#PWR0133")
 					(unit 1)
 				)
 			)
@@ -12222,7 +12208,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
 			(at 147.32 74.93 0)
 			(effects
 				(font
@@ -12274,7 +12260,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ddabc55d-ccc1-4b04-94bf-b88ea5dfd3aa")
-		(property "Reference" "#PWR0119"
+		(property "Reference" "#PWR0122"
 			(at 96.52 52.07 0)
 			(effects
 				(font
@@ -12324,7 +12310,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/07054158-43be-4dab-a684-c4a4bca9b970"
-					(reference "#PWR0119")
+					(reference "#PWR0122")
 					(unit 1)
 				)
 			)
@@ -12339,7 +12325,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e24c1326-9e19-4e34-b616-22b7aeae0d5e")
-		(property "Reference" "TP38"
+		(property "Reference" "TP49"
 			(at 156.21 121.92 90)
 			(effects
 				(font
@@ -12358,7 +12344,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 161.29 124.46 0)
 			(effects
 				(font
@@ -12391,7 +12377,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/07054158-43be-4dab-a684-c4a4bca9b970"
-					(reference "TP38")
+					(reference "TP49")
 					(unit 1)
 				)
 			)
@@ -12407,7 +12393,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e3dfde22-d000-449d-8594-71f270705abf")
-		(property "Reference" "U11"
+		(property "Reference" "U12"
 			(at 65.6941 34.29 0)
 			(effects
 				(font
@@ -12491,7 +12477,7 @@
 		(instances
 			(project ""
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/07054158-43be-4dab-a684-c4a4bca9b970"
-					(reference "U11")
+					(reference "U12")
 					(unit 1)
 				)
 			)
@@ -12506,7 +12492,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "e5d7dabe-f963-4ce1-a50d-3889a02a3e16")
-		(property "Reference" "R44"
+		(property "Reference" "R38"
 			(at 153.67 36.83 90)
 			(effects
 				(font
@@ -12524,7 +12510,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 153.924 35.306 90)
 			(effects
 				(font
@@ -12560,7 +12546,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/07054158-43be-4dab-a684-c4a4bca9b970"
-					(reference "R44")
+					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -12575,7 +12561,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e73a0adf-2326-4bde-94ab-fc3d7a07d37a")
-		(property "Reference" "D24"
+		(property "Reference" "D18"
 			(at 185.42 114.3 0)
 			(effects
 				(font
@@ -12593,7 +12579,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
 			(at 185.42 115.57 0)
 			(effects
 				(font
@@ -12629,7 +12615,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/07054158-43be-4dab-a684-c4a4bca9b970"
-					(reference "D24")
+					(reference "D18")
 					(unit 1)
 				)
 			)
@@ -12644,7 +12630,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e8e19a57-ef3e-4fcb-a3b7-37cf8ee72920")
-		(property "Reference" "TP46"
+		(property "Reference" "TP40"
 			(at 252.73 109.22 90)
 			(effects
 				(font
@@ -12663,7 +12649,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 257.81 111.76 0)
 			(effects
 				(font
@@ -12696,7 +12682,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/07054158-43be-4dab-a684-c4a4bca9b970"
-					(reference "TP46")
+					(reference "TP40")
 					(unit 1)
 				)
 			)
@@ -12711,7 +12697,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ecad261d-f81e-4f20-a6a2-98e07927843b")
-		(property "Reference" "D28"
+		(property "Reference" "D29"
 			(at 139.7 167.64 0)
 			(effects
 				(font
@@ -12729,7 +12715,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
 			(at 140.97 167.64 0)
 			(effects
 				(font
@@ -12765,7 +12751,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/07054158-43be-4dab-a684-c4a4bca9b970"
-					(reference "D28")
+					(reference "D29")
 					(unit 1)
 				)
 			)
@@ -12781,7 +12767,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f24e9e71-71a9-48ca-bf2d-e51d20f7f1ec")
-		(property "Reference" "D32"
+		(property "Reference" "D17"
 			(at 213.36 107.95 0)
 			(effects
 				(font
@@ -12799,7 +12785,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-523"
 			(at 214.63 109.22 0)
 			(effects
 				(font
@@ -12853,7 +12839,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/07054158-43be-4dab-a684-c4a4bca9b970"
-					(reference "D32")
+					(reference "D17")
 					(unit 1)
 				)
 			)
@@ -12886,7 +12872,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0402"
 			(at 161.29 140.97 0)
 			(effects
 				(font
@@ -12956,7 +12942,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f3dc786b-ba55-40e3-84bb-2412d3baf674")
-		(property "Reference" "#PWR0118"
+		(property "Reference" "#PWR0125"
 			(at 63.5 76.2 0)
 			(effects
 				(font
@@ -13006,7 +12992,7 @@
 		(instances
 			(project ""
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/07054158-43be-4dab-a684-c4a4bca9b970"
-					(reference "#PWR0118")
+					(reference "#PWR0125")
 					(unit 1)
 				)
 			)
@@ -13022,7 +13008,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f4d91825-f216-4cad-a25f-f82e0412d9e2")
-		(property "Reference" "J7"
+		(property "Reference" "J5"
 			(at 279.4 127.3555 0)
 			(effects
 				(font
@@ -13127,7 +13113,7 @@
 		(instances
 			(project ""
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/07054158-43be-4dab-a684-c4a4bca9b970"
-					(reference "J7")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -13142,7 +13128,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f5303d12-1182-4c20-8db4-e56b1e6a5215")
-		(property "Reference" "R47"
+		(property "Reference" "R41"
 			(at 176.53 36.83 90)
 			(effects
 				(font
@@ -13160,7 +13146,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 176.784 35.306 90)
 			(effects
 				(font
@@ -13196,7 +13182,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/07054158-43be-4dab-a684-c4a4bca9b970"
-					(reference "R47")
+					(reference "R41")
 					(unit 1)
 				)
 			)
@@ -13211,7 +13197,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f874b09c-414d-4892-ba35-d0b19f744330")
-		(property "Reference" "D19"
+		(property "Reference" "D22"
 			(at 40.64 167.64 0)
 			(effects
 				(font
@@ -13229,7 +13215,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
 			(at 41.91 167.64 0)
 			(effects
 				(font
@@ -13265,7 +13251,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/07054158-43be-4dab-a684-c4a4bca9b970"
-					(reference "D19")
+					(reference "D22")
 					(unit 1)
 				)
 			)
@@ -13354,7 +13340,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f9be5486-7ffc-498d-93a8-3ba64ce81717")
-		(property "Reference" "TP34"
+		(property "Reference" "TP44"
 			(at 118.11 121.92 90)
 			(effects
 				(font
@@ -13373,7 +13359,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 123.19 124.46 0)
 			(effects
 				(font
@@ -13406,7 +13392,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/07054158-43be-4dab-a684-c4a4bca9b970"
-					(reference "TP34")
+					(reference "TP44")
 					(unit 1)
 				)
 			)
@@ -13421,7 +13407,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fc4370fc-c59f-4333-9598-3b40832060aa")
-		(property "Reference" "TP43"
+		(property "Reference" "TP37"
 			(at 245.11 109.22 90)
 			(effects
 				(font
@@ -13440,7 +13426,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 250.19 111.76 0)
 			(effects
 				(font
@@ -13473,7 +13459,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/07054158-43be-4dab-a684-c4a4bca9b970"
-					(reference "TP43")
+					(reference "TP37")
 					(unit 1)
 				)
 			)
@@ -13488,7 +13474,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fd973413-fccb-4524-a589-a37b5431b7f0")
-		(property "Reference" "TP41"
+		(property "Reference" "TP35"
 			(at 240.03 109.22 90)
 			(effects
 				(font
@@ -13507,7 +13493,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 245.11 111.76 0)
 			(effects
 				(font
@@ -13540,7 +13526,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/07054158-43be-4dab-a684-c4a4bca9b970"
-					(reference "TP41")
+					(reference "TP35")
 					(unit 1)
 				)
 			)
@@ -13555,7 +13541,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fe5ae8e5-e576-492c-be76-c9338cc3e758")
-		(property "Reference" "D22"
+		(property "Reference" "D25"
 			(at 63.5 167.64 0)
 			(effects
 				(font
@@ -13573,7 +13559,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
 			(at 64.77 167.64 0)
 			(effects
 				(font
@@ -13609,7 +13595,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/07054158-43be-4dab-a684-c4a4bca9b970"
-					(reference "D22")
+					(reference "D25")
 					(unit 1)
 				)
 			)

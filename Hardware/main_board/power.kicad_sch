@@ -6219,7 +6219,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0089c6d3-f883-4e4a-85b0-1dfd506b8615")
-		(property "Reference" "C16"
+		(property "Reference" "C35"
 			(at 35.56 179.07 90)
 			(effects
 				(font
@@ -6237,7 +6237,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 35.8648 173.99 0)
 			(effects
 				(font
@@ -6273,7 +6273,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "C16")
+					(reference "C35")
 					(unit 1)
 				)
 			)
@@ -6289,7 +6289,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00ff7797-a6e0-46c7-b328-46c071ae569d")
-		(property "Reference" "#PWR3"
+		(property "Reference" "#PWR036"
 			(at 71.12 72.39 0)
 			(effects
 				(font
@@ -6339,7 +6339,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "#PWR3")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -6354,7 +6354,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "019d226e-2d7e-4337-ae7d-4c77345b7d59")
-		(property "Reference" "R14"
+		(property "Reference" "R15"
 			(at 46.99 143.51 90)
 			(effects
 				(font
@@ -6372,7 +6372,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 48.514 143.764 90)
 			(effects
 				(font
@@ -6408,7 +6408,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "R14")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -6423,7 +6423,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "05fbf3e2-9bc2-4728-a2a9-c2dc79c44c02")
-		(property "Reference" "TP7"
+		(property "Reference" "TP12"
 			(at 261.62 24.13 90)
 			(effects
 				(font
@@ -6442,7 +6442,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 259.08 29.21 0)
 			(effects
 				(font
@@ -6475,7 +6475,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "TP7")
+					(reference "TP12")
 					(unit 1)
 				)
 			)
@@ -6490,7 +6490,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "08163bb2-67ae-435e-9e8d-2fa319984efc")
-		(property "Reference" "C17"
+		(property "Reference" "C36"
 			(at 88.9 179.07 90)
 			(effects
 				(font
@@ -6508,7 +6508,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 89.2048 173.99 0)
 			(effects
 				(font
@@ -6544,7 +6544,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "C17")
+					(reference "C36")
 					(unit 1)
 				)
 			)
@@ -6559,7 +6559,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0ff689aa-98fc-4071-9c47-8fa92299c4f1")
-		(property "Reference" "C22"
+		(property "Reference" "C33"
 			(at 132.08 144.78 90)
 			(effects
 				(font
@@ -6577,7 +6577,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 132.3848 139.7 0)
 			(effects
 				(font
@@ -6613,7 +6613,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "C22")
+					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -6719,7 +6719,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "128bd71e-06bd-4674-9f89-0ec553db68ce")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR034"
 			(at 166.37 64.77 0)
 			(effects
 				(font
@@ -6769,7 +6769,7 @@
 		(instances
 			(project ""
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "#PWR020")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -6784,7 +6784,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "138b9bd1-d9ad-4b95-bc98-53ab4e456788")
-		(property "Reference" "R4"
+		(property "Reference" "R8"
 			(at 46.99 68.58 90)
 			(effects
 				(font
@@ -6802,7 +6802,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 47.244 67.056 90)
 			(effects
 				(font
@@ -6838,7 +6838,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "R4")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -6854,7 +6854,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "16a3ea7b-56e5-4548-b98e-fff69a224051")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR061"
 			(at 110.49 172.72 0)
 			(effects
 				(font
@@ -6904,7 +6904,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "#PWR029")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -6919,7 +6919,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1e7f8053-51a1-4968-a07e-fc43ad95be00")
-		(property "Reference" "R10"
+		(property "Reference" "R2"
 			(at 147.32 19.05 90)
 			(effects
 				(font
@@ -6937,7 +6937,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 148.844 19.304 90)
 			(effects
 				(font
@@ -6973,7 +6973,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "R10")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -6988,7 +6988,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1f4127f3-ef01-4898-a8de-8eac5e9bc6a6")
-		(property "Reference" "#PWR5"
+		(property "Reference" "#PWR047"
 			(at 48.26 110.49 0)
 			(effects
 				(font
@@ -7038,7 +7038,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "#PWR5")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -7053,7 +7053,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1fc577d7-365e-4036-bafd-084573c988e4")
-		(property "Reference" "R12"
+		(property "Reference" "R5"
 			(at 185.42 60.96 90)
 			(effects
 				(font
@@ -7071,7 +7071,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
 			(at 186.944 61.214 90)
 			(effects
 				(font
@@ -7107,7 +7107,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "R12")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -7122,7 +7122,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "216ca8ac-d6d6-4758-97fb-0316b8cc6f9e")
-		(property "Reference" "C8"
+		(property "Reference" "C28"
 			(at 120.65 82.55 90)
 			(effects
 				(font
@@ -7140,7 +7140,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 120.9548 77.47 0)
 			(effects
 				(font
@@ -7176,7 +7176,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "C8")
+					(reference "C28")
 					(unit 1)
 				)
 			)
@@ -7191,7 +7191,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2528f037-5fb8-49b2-a5af-428d0fc67c7b")
-		(property "Reference" "R1"
+		(property "Reference" "R4"
 			(at 49.53 49.53 90)
 			(effects
 				(font
@@ -7209,7 +7209,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 49.784 48.006 90)
 			(effects
 				(font
@@ -7245,7 +7245,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "R1")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -7260,7 +7260,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "26456bab-d69f-423b-8077-25dc28ad5b69")
-		(property "Reference" "R5"
+		(property "Reference" "R13"
 			(at 33.02 91.44 90)
 			(effects
 				(font
@@ -7278,7 +7278,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 34.544 91.694 90)
 			(effects
 				(font
@@ -7314,7 +7314,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "R5")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -7329,7 +7329,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2837297a-c54e-41ff-939f-6d27764552c1")
-		(property "Reference" "TP16"
+		(property "Reference" "TP25"
 			(at 261.62 74.93 90)
 			(effects
 				(font
@@ -7348,7 +7348,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 259.08 80.01 0)
 			(effects
 				(font
@@ -7381,7 +7381,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "TP16")
+					(reference "TP25")
 					(unit 1)
 				)
 			)
@@ -7462,7 +7462,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "28da008c-1658-48cc-9f3b-7bec79133b84")
-		(property "Reference" "C2"
+		(property "Reference" "C25"
 			(at 41.91 49.53 90)
 			(effects
 				(font
@@ -7480,7 +7480,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 42.2148 44.45 0)
 			(effects
 				(font
@@ -7516,7 +7516,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "C2")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -7532,7 +7532,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3209ac50-2200-42c8-8da4-a8388e1f1605")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR020"
 			(at 147.32 20.32 0)
 			(effects
 				(font
@@ -7583,7 +7583,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "#PWR014")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -7599,7 +7599,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "327b6b7f-5b19-4e15-8d27-137bb234d2d0")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR021"
 			(at 247.65 24.13 0)
 			(effects
 				(font
@@ -7650,7 +7650,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "#PWR041")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -7666,7 +7666,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "34694c1b-78e2-414c-9358-59bf4a52724c")
-		(property "Reference" "#PWR10"
+		(property "Reference" "#PWR037"
 			(at 99.06 72.39 0)
 			(effects
 				(font
@@ -7716,7 +7716,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "#PWR10")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -7731,7 +7731,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "34a91fee-ad01-467a-b380-a0cd2df8ed9c")
-		(property "Reference" "C12"
+		(property "Reference" "C29"
 			(at 35.56 144.78 90)
 			(effects
 				(font
@@ -7749,7 +7749,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 35.8648 139.7 0)
 			(effects
 				(font
@@ -7785,7 +7785,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "C12")
+					(reference "C29")
 					(unit 1)
 				)
 			)
@@ -7866,7 +7866,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "390dfd5d-d002-4e20-b0ca-9358b5a90cb7")
-		(property "Reference" "TP11"
+		(property "Reference" "TP16"
 			(at 261.62 44.45 90)
 			(effects
 				(font
@@ -7885,7 +7885,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 259.08 49.53 0)
 			(effects
 				(font
@@ -7918,7 +7918,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "TP11")
+					(reference "TP16")
 					(unit 1)
 				)
 			)
@@ -7933,7 +7933,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3939370b-dca5-4a7d-a924-391f3d5a695d")
-		(property "Reference" "R11"
+		(property "Reference" "R3"
 			(at 184.15 26.67 90)
 			(effects
 				(font
@@ -7951,7 +7951,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 186.944 25.654 90)
 			(effects
 				(font
@@ -7987,7 +7987,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "R11")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -8002,7 +8002,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3b3972d8-8130-4f59-8d87-fa36121356a9")
-		(property "Reference" "U1"
+		(property "Reference" "U3"
 			(at 85.09 69.85 0)
 			(effects
 				(font
@@ -8125,7 +8125,7 @@
 		(instances
 			(project ""
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "U1")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -8141,7 +8141,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3be52440-377c-4bff-955c-b38fd462f028")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR067"
 			(at 92.71 190.5 0)
 			(effects
 				(font
@@ -8191,7 +8191,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "#PWR033")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -8206,7 +8206,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3d0164ec-db83-4ebf-ac95-09ad1c572814")
-		(property "Reference" "C14"
+		(property "Reference" "C30"
 			(at 88.9 144.78 90)
 			(effects
 				(font
@@ -8224,7 +8224,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 89.2048 139.7 0)
 			(effects
 				(font
@@ -8260,7 +8260,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "C14")
+					(reference "C30")
 					(unit 1)
 				)
 			)
@@ -8275,7 +8275,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3df0153a-e46a-4d35-bc76-7cf077e38cc3")
-		(property "Reference" "TP19"
+		(property "Reference" "TP30"
 			(at 261.62 88.9 90)
 			(effects
 				(font
@@ -8294,7 +8294,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 259.08 93.98 0)
 			(effects
 				(font
@@ -8327,7 +8327,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "TP19")
+					(reference "TP30")
 					(unit 1)
 				)
 			)
@@ -8343,7 +8343,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4914cfd7-1ed5-4f30-ad7c-18d2229bb4c0")
-		(property "Reference" "U6"
+		(property "Reference" "U5"
 			(at 219.71 128.27 0)
 			(effects
 				(font
@@ -8407,7 +8407,7 @@
 		(instances
 			(project ""
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "U6")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -8423,7 +8423,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "49a4bfc4-634e-4d23-8c3b-b6b38ccf1229")
-		(property "Reference" "#PWR9"
+		(property "Reference" "#PWR032"
 			(at 124.46 64.77 0)
 			(effects
 				(font
@@ -8473,7 +8473,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "#PWR9")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -8488,7 +8488,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4aaf7d79-85de-41ae-b363-2eadc0de170a")
-		(property "Reference" "R6"
+		(property "Reference" "R12"
 			(at 41.91 85.09 90)
 			(effects
 				(font
@@ -8506,7 +8506,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 43.434 85.344 90)
 			(effects
 				(font
@@ -8542,7 +8542,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "R6")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -8558,7 +8558,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4b8c8aa7-0464-4008-af40-a1c1feab2039")
-		(property "Reference" "#PWR11"
+		(property "Reference" "#PWR043"
 			(at 121.92 92.71 0)
 			(effects
 				(font
@@ -8608,7 +8608,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "#PWR11")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -8624,7 +8624,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4ba376e5-435f-42fc-9c92-10f48055f801")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR055"
 			(at 219.71 154.94 0)
 			(effects
 				(font
@@ -8674,7 +8674,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "#PWR047")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -8690,7 +8690,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4cadfab6-b522-4d9e-bf2f-094dd0dcb5f6")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR022"
 			(at 195.58 34.29 0)
 			(effects
 				(font
@@ -8740,7 +8740,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "#PWR015")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -8756,7 +8756,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4ccf6941-ad55-4d5e-b941-cde9a6a8c26e")
-		(property "Reference" "#PWR7"
+		(property "Reference" "#PWR028"
 			(at 138.43 57.15 0)
 			(effects
 				(font
@@ -8806,7 +8806,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "#PWR7")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -8821,7 +8821,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4edb7f68-e0c9-4e35-9ced-21f1d0ef95fc")
-		(property "Reference" "TP4"
+		(property "Reference" "TP29"
 			(at 67.31 90.17 90)
 			(effects
 				(font
@@ -8840,7 +8840,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 62.23 87.63 0)
 			(effects
 				(font
@@ -8873,7 +8873,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "TP4")
+					(reference "TP29")
 					(unit 1)
 				)
 			)
@@ -8888,7 +8888,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "53ddade2-4595-4467-9ac1-4e5cf9bb22b4")
-		(property "Reference" "C19"
+		(property "Reference" "C39"
 			(at 77.47 177.8 90)
 			(effects
 				(font
@@ -8906,7 +8906,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 82.55 178.1048 0)
 			(effects
 				(font
@@ -8942,7 +8942,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "C19")
+					(reference "C39")
 					(unit 1)
 				)
 			)
@@ -8957,7 +8957,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "563bcbcb-4225-434f-862a-9f0d22f4d625")
-		(property "Reference" "L3"
+		(property "Reference" "L6"
 			(at 77.47 170.18 90)
 			(effects
 				(font
@@ -9011,7 +9011,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "L3")
+					(reference "L6")
 					(unit 1)
 				)
 			)
@@ -9027,7 +9027,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "58ff6f19-d98e-4983-acd3-0b81de9a6f11")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR050"
 			(at 36.83 138.43 0)
 			(effects
 				(font
@@ -9077,7 +9077,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "#PWR023")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -9092,7 +9092,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5af392ad-a648-49ce-bd92-1aaf7f31dd68")
-		(property "Reference" "U4"
+		(property "Reference" "U7"
 			(at 63.5 163.83 0)
 			(effects
 				(font
@@ -9158,7 +9158,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "U4")
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -9174,7 +9174,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5ba466fd-886e-42a0-918e-5b4da4812493")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR039"
 			(at 247.65 71.12 0)
 			(effects
 				(font
@@ -9225,7 +9225,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "#PWR043")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -9240,7 +9240,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5bddc696-4333-4383-b4e0-d5db8ffb5571")
-		(property "Reference" "L2"
+		(property "Reference" "L5"
 			(at 77.47 135.89 90)
 			(effects
 				(font
@@ -9294,7 +9294,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "L2")
+					(reference "L5")
 					(unit 1)
 				)
 			)
@@ -9310,7 +9310,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6035c8c4-71a6-4d89-9801-8e5a6d3f32c5")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR063"
 			(at 133.35 181.61 0)
 			(effects
 				(font
@@ -9360,7 +9360,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "#PWR046")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -9376,7 +9376,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6104adeb-e5d7-487f-8783-934f891f2a3f")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR040"
 			(at 236.22 81.28 0)
 			(effects
 				(font
@@ -9427,7 +9427,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "#PWR039")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -9443,7 +9443,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "636cb886-c612-400a-a988-59b1c23befd9")
-		(property "Reference" "#PWR1"
+		(property "Reference" "#PWR030"
 			(at 46.99 60.96 0)
 			(effects
 				(font
@@ -9493,7 +9493,7 @@
 		(instances
 			(project ""
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "#PWR1")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -9509,7 +9509,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6adbd051-7656-4f70-9e1c-034894a8c97c")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR057"
 			(at 73.66 156.21 0)
 			(effects
 				(font
@@ -9559,7 +9559,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "#PWR025")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -9575,7 +9575,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e673780-7a8c-4cbe-bcff-03c5e082ba9e")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR056"
 			(at 36.83 156.21 0)
 			(effects
 				(font
@@ -9625,7 +9625,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "#PWR022")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -9641,7 +9641,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "72281496-529e-4226-ab93-a80ebd4feb2a")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR031"
 			(at 247.65 54.61 0)
 			(effects
 				(font
@@ -9692,7 +9692,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "#PWR038")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -9707,7 +9707,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7369f700-a384-4801-9e3f-573e2b56c6ca")
-		(property "Reference" "TP5"
+		(property "Reference" "TP11"
 			(at 142.24 24.13 90)
 			(effects
 				(font
@@ -9726,7 +9726,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 144.78 19.05 0)
 			(effects
 				(font
@@ -9759,7 +9759,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "TP5")
+					(reference "TP11")
 					(unit 1)
 				)
 			)
@@ -9774,7 +9774,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "73c35101-a15c-41ad-9625-5c493ce29976")
-		(property "Reference" "TP12"
+		(property "Reference" "TP18"
 			(at 261.62 48.26 90)
 			(effects
 				(font
@@ -9793,7 +9793,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 259.08 53.34 0)
 			(effects
 				(font
@@ -9826,7 +9826,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "TP12")
+					(reference "TP18")
 					(unit 1)
 				)
 			)
@@ -9842,7 +9842,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "73d35e8c-38c6-4061-8543-78cb8cd3af8a")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR045"
 			(at 198.12 92.71 0)
 			(effects
 				(font
@@ -9892,7 +9892,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "#PWR019")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -9981,7 +9981,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "75e44d36-ebbf-4173-86b2-d696bb0b70d3")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR051"
 			(at 95.25 139.7 0)
 			(effects
 				(font
@@ -10031,7 +10031,7 @@
 		(instances
 			(project ""
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "#PWR027")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -10047,7 +10047,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "760965bb-c3ad-4984-9ccc-ddae484d7bb5")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR058"
 			(at 92.71 156.21 0)
 			(effects
 				(font
@@ -10097,7 +10097,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "#PWR026")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -10113,7 +10113,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7612772b-e73c-4bd9-bc2a-cde4ff398d32")
-		(property "Reference" "#PWR4"
+		(property "Reference" "#PWR042"
 			(at 38.1 88.9 0)
 			(effects
 				(font
@@ -10163,7 +10163,7 @@
 		(instances
 			(project ""
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "#PWR4")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -10178,7 +10178,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7774796e-3bbb-43c4-bee4-3bce89c1bf20")
-		(property "Reference" "C7"
+		(property "Reference" "C27"
 			(at 125.73 53.34 90)
 			(effects
 				(font
@@ -10196,7 +10196,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 126.0348 48.26 0)
 			(effects
 				(font
@@ -10232,7 +10232,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "C7")
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -10247,7 +10247,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "78e3a1d7-98a0-4c73-b438-7b2bb7bfcb77")
-		(property "Reference" "TP15"
+		(property "Reference" "TP23"
 			(at 261.62 71.12 90)
 			(effects
 				(font
@@ -10266,7 +10266,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 259.08 76.2 0)
 			(effects
 				(font
@@ -10299,7 +10299,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "TP15")
+					(reference "TP23")
 					(unit 1)
 				)
 			)
@@ -10331,7 +10331,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 129.54 172.212 90)
 			(effects
 				(font
@@ -10382,7 +10382,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7d212c5c-fad1-4e9f-83a4-d008236171cb")
-		(property "Reference" "C6"
+		(property "Reference" "C26"
 			(at 120.65 53.34 90)
 			(effects
 				(font
@@ -10400,7 +10400,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 120.9548 48.26 0)
 			(effects
 				(font
@@ -10436,7 +10436,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "C6")
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -10451,7 +10451,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7e5fe499-c5b7-479d-8e4c-b9e623fbb888")
-		(property "Reference" "TP13"
+		(property "Reference" "TP21"
 			(at 261.62 60.96 90)
 			(effects
 				(font
@@ -10470,7 +10470,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 259.08 66.04 0)
 			(effects
 				(font
@@ -10503,7 +10503,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "TP13")
+					(reference "TP21")
 					(unit 1)
 				)
 			)
@@ -10518,7 +10518,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "808c4747-4b35-4560-9ac9-cccacedb6100")
-		(property "Reference" "R9"
+		(property "Reference" "R10"
 			(at 133.35 82.55 90)
 			(effects
 				(font
@@ -10536,7 +10536,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 133.604 81.026 90)
 			(effects
 				(font
@@ -10572,7 +10572,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "R9")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -10587,7 +10587,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "815078d4-db11-4358-8e5c-768d2b9ff83a")
-		(property "Reference" "C18"
+		(property "Reference" "C37"
 			(at 93.98 179.07 90)
 			(effects
 				(font
@@ -10605,7 +10605,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 94.2848 173.99 0)
 			(effects
 				(font
@@ -10641,7 +10641,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "C18")
+					(reference "C37")
 					(unit 1)
 				)
 			)
@@ -10657,7 +10657,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "81ef2a7f-2791-4c2f-ad5e-f3cefbb7d78c")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR054"
 			(at 41.91 147.32 0)
 			(effects
 				(font
@@ -10707,7 +10707,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "#PWR024")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -10723,7 +10723,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "832bc7d3-a1f0-443d-a9bd-ab381b96a67d")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR035"
 			(at 247.65 60.96 0)
 			(effects
 				(font
@@ -10774,7 +10774,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "#PWR042")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -10862,7 +10862,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "85ac0aab-b55c-4091-a963-8eafb1e3fc41")
-		(property "Reference" "R7"
+		(property "Reference" "R14"
 			(at 38.1 99.06 90)
 			(effects
 				(font
@@ -10880,7 +10880,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 38.354 97.536 90)
 			(effects
 				(font
@@ -10916,7 +10916,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "R7")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -10931,7 +10931,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "87eb6660-0e28-4aab-bbb6-fd695ff38b9f")
-		(property "Reference" "TP3"
+		(property "Reference" "TP26"
 			(at 25.4 77.47 90)
 			(effects
 				(font
@@ -10950,7 +10950,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 27.94 72.39 0)
 			(effects
 				(font
@@ -10983,7 +10983,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "TP3")
+					(reference "TP26")
 					(unit 1)
 				)
 			)
@@ -10998,7 +10998,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "88366d55-3814-43f8-9f69-3df269867806")
-		(property "Reference" "U3"
+		(property "Reference" "U6"
 			(at 63.5 129.54 0)
 			(effects
 				(font
@@ -11064,7 +11064,7 @@
 		(instances
 			(project ""
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "U3")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -11079,7 +11079,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8939767d-c15d-44a9-8ab5-aea30a0dee6e")
-		(property "Reference" "TP1"
+		(property "Reference" "TP17"
 			(at 69.85 46.99 90)
 			(effects
 				(font
@@ -11098,7 +11098,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 72.39 41.91 0)
 			(effects
 				(font
@@ -11131,7 +11131,7 @@
 		(instances
 			(project ""
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "TP1")
+					(reference "TP17")
 					(unit 1)
 				)
 			)
@@ -11146,7 +11146,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8afb66e7-fec9-4129-97f9-a07d02916df8")
-		(property "Reference" "L4"
+		(property "Reference" "L7"
 			(at 101.6 170.18 90)
 			(effects
 				(font
@@ -11200,7 +11200,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "L4")
+					(reference "L7")
 					(unit 1)
 				)
 			)
@@ -11216,7 +11216,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8cc0abe7-c8f8-4dc9-8638-a42a1a780809")
-		(property "Reference" "#PWR6"
+		(property "Reference" "#PWR041"
 			(at 29.21 88.9 0)
 			(effects
 				(font
@@ -11266,7 +11266,7 @@
 		(instances
 			(project ""
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "#PWR6")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -11282,7 +11282,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "90404a00-7776-458c-9137-16354723d902")
-		(property "Reference" "U5"
+		(property "Reference" "U4"
 			(at 119.38 129.54 0)
 			(effects
 				(font
@@ -11337,7 +11337,7 @@
 		(instances
 			(project ""
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "U5")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -11352,7 +11352,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "96134dfa-7b7b-41dc-8aae-6f37f8ba6bf3")
-		(property "Reference" "C9"
+		(property "Reference" "C22"
 			(at 147.32 45.72 90)
 			(effects
 				(font
@@ -11370,7 +11370,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 147.6248 40.64 0)
 			(effects
 				(font
@@ -11406,7 +11406,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "C9")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -11422,7 +11422,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9aba6006-33c8-407f-a2e3-b8816dd5b2ad")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR064"
 			(at 36.83 190.5 0)
 			(effects
 				(font
@@ -11472,7 +11472,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "#PWR031")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -11488,7 +11488,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9eb20ab4-1925-4b99-9b8f-5837fa414a4a")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR052"
 			(at 105.41 139.7 0)
 			(effects
 				(font
@@ -11538,7 +11538,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "#PWR036")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -11553,7 +11553,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9f9ceb94-468b-429e-ae80-e271656d8ab9")
-		(property "Reference" "R3"
+		(property "Reference" "R7"
 			(at 41.91 68.58 90)
 			(effects
 				(font
@@ -11571,7 +11571,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 42.164 67.056 90)
 			(effects
 				(font
@@ -11607,7 +11607,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "R3")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -11622,7 +11622,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9fcd2273-70bc-46e0-847b-bf49a3ad57e6")
-		(property "Reference" "R8"
+		(property "Reference" "R9"
 			(at 127 73.66 90)
 			(effects
 				(font
@@ -11640,7 +11640,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 128.524 73.914 90)
 			(effects
 				(font
@@ -11676,7 +11676,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "R8")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -11691,7 +11691,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a149f1e2-bcd7-4e88-8444-2e8c68a37d3d")
-		(property "Reference" "TP20"
+		(property "Reference" "TP31"
 			(at 261.62 92.71 90)
 			(effects
 				(font
@@ -11710,7 +11710,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 259.08 97.79 0)
 			(effects
 				(font
@@ -11743,7 +11743,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "TP20")
+					(reference "TP31")
 					(unit 1)
 				)
 			)
@@ -11758,7 +11758,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a1ae6687-20b5-4a0d-862d-f37b1b854ba2")
-		(property "Reference" "TP9"
+		(property "Reference" "TP14"
 			(at 261.62 34.29 90)
 			(effects
 				(font
@@ -11777,7 +11777,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 259.08 39.37 0)
 			(effects
 				(font
@@ -11810,7 +11810,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "TP9")
+					(reference "TP14")
 					(unit 1)
 				)
 			)
@@ -11825,7 +11825,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a3266a39-357e-4828-b0d7-581d058dc71c")
-		(property "Reference" "TP2"
+		(property "Reference" "TP19"
 			(at 69.85 49.53 90)
 			(effects
 				(font
@@ -11844,7 +11844,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 72.39 44.45 0)
 			(effects
 				(font
@@ -11877,7 +11877,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "TP2")
+					(reference "TP19")
 					(unit 1)
 				)
 			)
@@ -11892,7 +11892,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a7efc5f6-40ef-4478-9c51-ecdb306be79d")
-		(property "Reference" "C20"
+		(property "Reference" "C38"
 			(at 109.22 179.07 90)
 			(effects
 				(font
@@ -11910,7 +11910,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 109.5248 173.99 0)
 			(effects
 				(font
@@ -11946,7 +11946,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "C20")
+					(reference "C38")
 					(unit 1)
 				)
 			)
@@ -11961,7 +11961,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a9491018-314b-4df2-b706-121fa924e07f")
-		(property "Reference" "C15"
+		(property "Reference" "C31"
 			(at 93.98 144.78 90)
 			(effects
 				(font
@@ -11979,7 +11979,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 94.2848 139.7 0)
 			(effects
 				(font
@@ -12015,7 +12015,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "C15")
+					(reference "C31")
 					(unit 1)
 				)
 			)
@@ -12030,7 +12030,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aa4c1705-a781-4686-82f1-664dfbeaaceb")
-		(property "Reference" "TP8"
+		(property "Reference" "TP13"
 			(at 261.62 27.94 90)
 			(effects
 				(font
@@ -12049,7 +12049,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 259.08 33.02 0)
 			(effects
 				(font
@@ -12082,7 +12082,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "TP8")
+					(reference "TP13")
 					(unit 1)
 				)
 			)
@@ -12098,7 +12098,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "afea4854-1b0d-4bd2-9edd-f258284a0132")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR024"
 			(at 207.01 40.64 0)
 			(effects
 				(font
@@ -12148,7 +12148,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "#PWR017")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -12163,7 +12163,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b28f6c65-fad1-45cd-babe-614bbb4490c5")
-		(property "Reference" "TP6"
+		(property "Reference" "TP24"
 			(at 208.28 74.93 90)
 			(effects
 				(font
@@ -12182,7 +12182,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 205.74 80.01 0)
 			(effects
 				(font
@@ -12215,7 +12215,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "TP6")
+					(reference "TP24")
 					(unit 1)
 				)
 			)
@@ -12231,7 +12231,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b49ae1f9-a1e7-4779-8860-99a607a15e09")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR065"
 			(at 53.34 190.5 0)
 			(effects
 				(font
@@ -12281,7 +12281,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "#PWR044")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -12297,7 +12297,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b7f3444f-eabc-49e1-9236-8654ddac65d3")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR062"
 			(at 125.73 181.61 0)
 			(effects
 				(font
@@ -12347,7 +12347,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "#PWR045")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -12362,7 +12362,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b8cdf136-2ae7-490c-8d1f-75214e5c6cb4")
-		(property "Reference" "L1"
+		(property "Reference" "L4"
 			(at 111.76 36.83 90)
 			(effects
 				(font
@@ -12416,7 +12416,7 @@
 		(instances
 			(project ""
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "L1")
+					(reference "L4")
 					(unit 1)
 				)
 			)
@@ -12432,7 +12432,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b8ce0ea6-371a-43ef-8585-c67f8dea6129")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR060"
 			(at 36.83 172.72 0)
 			(effects
 				(font
@@ -12482,7 +12482,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "#PWR028")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -12498,7 +12498,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bc68c751-5a4e-4eed-ae09-87170f01c882")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR026"
 			(at 177.8 44.45 0)
 			(effects
 				(font
@@ -12548,7 +12548,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "#PWR016")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -12564,7 +12564,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be856226-56b0-4ac3-b24d-2050ff97348f")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR038"
 			(at 201.93 74.93 0)
 			(effects
 				(font
@@ -12614,7 +12614,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "#PWR018")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -12629,7 +12629,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c08e4a67-5d73-41da-a293-a9a149db80e3")
-		(property "Reference" "TP17"
+		(property "Reference" "TP27"
 			(at 261.62 81.28 90)
 			(effects
 				(font
@@ -12648,7 +12648,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 259.08 86.36 0)
 			(effects
 				(font
@@ -12681,7 +12681,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "TP17")
+					(reference "TP27")
 					(unit 1)
 				)
 			)
@@ -12696,7 +12696,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c1005b02-305f-46bf-b549-550992c32b54")
-		(property "Reference" "TP22"
+		(property "Reference" "TP20"
 			(at 261.62 54.61 90)
 			(effects
 				(font
@@ -12715,7 +12715,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 259.08 59.69 0)
 			(effects
 				(font
@@ -12748,7 +12748,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "TP22")
+					(reference "TP20")
 					(unit 1)
 				)
 			)
@@ -12763,7 +12763,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c3d781f5-0425-45c2-a377-34a093914993")
-		(property "Reference" "C21"
+		(property "Reference" "C32"
 			(at 104.14 144.78 90)
 			(effects
 				(font
@@ -12781,7 +12781,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 104.4448 139.7 0)
 			(effects
 				(font
@@ -12817,7 +12817,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "C21")
+					(reference "C32")
 					(unit 1)
 				)
 			)
@@ -12832,7 +12832,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c41437f5-48d9-4f3b-a53d-2576ddedc826")
-		(property "Reference" "C13"
+		(property "Reference" "C34"
 			(at 77.47 143.51 90)
 			(effects
 				(font
@@ -12850,7 +12850,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 82.55 143.8148 0)
 			(effects
 				(font
@@ -12886,7 +12886,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "C13")
+					(reference "C34")
 					(unit 1)
 				)
 			)
@@ -12902,7 +12902,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c7bcba16-6896-4857-bbdb-a4a03f61a863")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR068"
 			(at 110.49 190.5 0)
 			(effects
 				(font
@@ -12952,7 +12952,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "#PWR034")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -12968,7 +12968,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9476bcf-5793-4394-ab89-7fd71e12e1e8")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR029"
 			(at 151.13 57.15 0)
 			(effects
 				(font
@@ -13018,7 +13018,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "#PWR013")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -13033,7 +13033,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cae52746-70ef-4dcb-ade2-2e9631d3a5bd")
-		(property "Reference" "C11"
+		(property "Reference" "C18"
 			(at 205.74 30.48 90)
 			(effects
 				(font
@@ -13051,7 +13051,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 206.0448 25.4 0)
 			(effects
 				(font
@@ -13087,7 +13087,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "C11")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -13102,7 +13102,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cd99ded8-4359-42fc-9de2-4746114f4988")
-		(property "Reference" "C5"
+		(property "Reference" "C21"
 			(at 139.7 45.72 90)
 			(effects
 				(font
@@ -13120,7 +13120,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 140.0048 40.64 0)
 			(effects
 				(font
@@ -13156,7 +13156,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "C5")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -13171,7 +13171,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cdb72506-fa4c-43fc-b453-b69dbb3fdd86")
-		(property "Reference" "C10"
+		(property "Reference" "C23"
 			(at 152.4 45.72 90)
 			(effects
 				(font
@@ -13189,7 +13189,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 152.7048 40.64 0)
 			(effects
 				(font
@@ -13225,7 +13225,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "C10")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -13241,7 +13241,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cf81c88b-334d-441a-b48a-30ab5e8f35ff")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR059"
 			(at 119.38 156.21 0)
 			(effects
 				(font
@@ -13291,7 +13291,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "#PWR035")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -13306,7 +13306,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d409881b-4dc1-4625-9487-d3eb82230e4e")
-		(property "Reference" "TP18"
+		(property "Reference" "TP28"
 			(at 261.62 85.09 90)
 			(effects
 				(font
@@ -13325,7 +13325,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 259.08 90.17 0)
 			(effects
 				(font
@@ -13358,7 +13358,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "TP18")
+					(reference "TP28")
 					(unit 1)
 				)
 			)
@@ -13373,7 +13373,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d6211dff-442f-48a6-a6fb-c780f8741433")
-		(property "Reference" "TP10"
+		(property "Reference" "TP15"
 			(at 261.62 38.1 90)
 			(effects
 				(font
@@ -13392,7 +13392,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 259.08 43.18 0)
 			(effects
 				(font
@@ -13425,7 +13425,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "TP10")
+					(reference "TP15")
 					(unit 1)
 				)
 			)
@@ -13440,7 +13440,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "daa2da5f-08c6-4e4a-80fd-0d7fa8c4e32f")
-		(property "Reference" "C3"
+		(property "Reference" "C19"
 			(at 101.6 33.02 90)
 			(effects
 				(font
@@ -13458,7 +13458,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 106.68 33.3248 0)
 			(effects
 				(font
@@ -13494,7 +13494,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "C3")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -13509,7 +13509,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "daeff32f-c6c2-4976-922e-40bcace07d1a")
-		(property "Reference" "C1"
+		(property "Reference" "C24"
 			(at 35.56 49.53 90)
 			(effects
 				(font
@@ -13527,7 +13527,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 35.8648 44.45 0)
 			(effects
 				(font
@@ -13563,7 +13563,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "C1")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -13579,7 +13579,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "deccedb6-0b68-4dd9-9c4a-187a58d285bb")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR053"
 			(at 133.35 139.7 0)
 			(effects
 				(font
@@ -13629,7 +13629,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "#PWR037")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -13645,7 +13645,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "df5499f3-9818-43bb-857a-507d0a103e80")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR046"
 			(at 236.22 88.9 0)
 			(effects
 				(font
@@ -13696,7 +13696,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "#PWR030")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -13711,7 +13711,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "e75e9938-b7e0-4135-9afd-93fb58ce57f1")
-		(property "Reference" "R13"
+		(property "Reference" "R11"
 			(at 196.85 82.55 90)
 			(effects
 				(font
@@ -13729,7 +13729,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 197.104 81.026 90)
 			(effects
 				(font
@@ -13765,7 +13765,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "R13")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -13781,7 +13781,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ebc43c5b-00c9-4062-aa45-f62c7f9c2370")
-		(property "Reference" "#PWR8"
+		(property "Reference" "#PWR025"
 			(at 140.97 40.64 0)
 			(effects
 				(font
@@ -13831,7 +13831,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "#PWR8")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -13846,7 +13846,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ee01106e-c0c5-4045-911a-9bee0c66df1c")
-		(property "Reference" "C4"
+		(property "Reference" "C20"
 			(at 134.62 45.72 90)
 			(effects
 				(font
@@ -13864,7 +13864,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 134.9248 40.64 0)
 			(effects
 				(font
@@ -13900,7 +13900,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "C4")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -13915,7 +13915,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f1690461-46b2-4757-8168-239e64853297")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR023"
 			(at 36.83 36.83 0)
 			(effects
 				(font
@@ -13966,7 +13966,7 @@
 		(instances
 			(project ""
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "#PWR021")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -13982,7 +13982,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f4251d80-522e-4789-8088-10ccf37ec6ce")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR066"
 			(at 73.66 190.5 0)
 			(effects
 				(font
@@ -14032,7 +14032,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "#PWR032")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -14048,7 +14048,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f4ed3d6e-b25c-4189-af8a-5ef0a7b06518")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR027"
 			(at 247.65 44.45 0)
 			(effects
 				(font
@@ -14099,7 +14099,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "#PWR040")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -14114,7 +14114,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f9c10ada-bae8-4516-92e5-1ee512c8fd23")
-		(property "Reference" "R2"
+		(property "Reference" "R6"
 			(at 36.83 68.58 90)
 			(effects
 				(font
@@ -14132,7 +14132,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 37.084 67.056 90)
 			(effects
 				(font
@@ -14168,7 +14168,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "R2")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -14184,7 +14184,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc1b08d0-feb4-403a-a86f-232fff75bd99")
-		(property "Reference" "#PWR2"
+		(property "Reference" "#PWR033"
 			(at 38.1 64.77 0)
 			(effects
 				(font
@@ -14234,7 +14234,7 @@
 		(instances
 			(project ""
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "#PWR2")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -14249,7 +14249,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fd0d4067-ee24-4445-8405-664bd99e8a69")
-		(property "Reference" "TP14"
+		(property "Reference" "TP22"
 			(at 261.62 64.77 90)
 			(effects
 				(font
@@ -14268,7 +14268,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 259.08 69.85 0)
 			(effects
 				(font
@@ -14301,7 +14301,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "TP14")
+					(reference "TP22")
 					(unit 1)
 				)
 			)
@@ -14317,7 +14317,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ffd7092b-1d48-475a-894b-1e3647e33abd")
-		(property "Reference" "#PWR12"
+		(property "Reference" "#PWR044"
 			(at 134.62 92.71 0)
 			(effects
 				(font
@@ -14367,7 +14367,7 @@
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "#PWR12")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
