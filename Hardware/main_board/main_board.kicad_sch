@@ -5,6 +5,22 @@
 	(uuid "16216a68-6dea-41d7-8e15-2cc84f72f8e2")
 	(paper "A4")
 	(lib_symbols)
+	(junction
+		(at 142.24 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4d6e2b5b-2235-410c-81c1-6d7ad78bfe81")
+	)
+	(wire
+		(pts
+			(xy 132.08 135.89) (xy 132.08 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00176cb9-cf87-4dfa-8c03-d5a066302b08")
+	)
 	(wire
 		(pts
 			(xy 166.37 87.63) (xy 204.47 87.63)
@@ -67,6 +83,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 135.89) (xy 139.7 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "526526ce-8468-464f-9db1-80167d6892a5")
+	)
+	(wire
+		(pts
 			(xy 166.37 116.84) (xy 204.47 116.84)
 		)
 		(stroke
@@ -77,6 +103,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 135.89) (xy 144.78 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c75b51d-b1de-4156-9f32-df9083aaab9d")
+	)
+	(wire
+		(pts
 			(xy 186.69 124.46) (xy 204.47 124.46)
 		)
 		(stroke
@@ -84,6 +120,36 @@
 			(type default)
 		)
 		(uuid "72916736-05bb-4765-80c5-b04f88008e49")
+	)
+	(wire
+		(pts
+			(xy 134.62 135.89) (xy 134.62 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "749f6e5a-04af-4c9f-838c-a98e2760b867")
+	)
+	(wire
+		(pts
+			(xy 137.16 135.89) (xy 137.16 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77adc8c1-c396-4489-9785-24bd98e9a9db")
+	)
+	(wire
+		(pts
+			(xy 142.24 143.51) (xy 142.24 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e41f0ee-2323-42d8-b640-c033754591de")
 	)
 	(wire
 		(pts
@@ -124,6 +190,16 @@
 			(type default)
 		)
 		(uuid "cf659f2a-fb69-42ce-9879-7f59fd4321f7")
+	)
+	(wire
+		(pts
+			(xy 147.32 135.89) (xy 147.32 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbe3aa4b-393f-43cb-83d5-471c00dc6929")
 	)
 	(wire
 		(pts
@@ -526,6 +602,76 @@
 				)
 				(justify left top)
 			)
+		)
+		(pin "BUTTON_BACK" output
+			(at 142.24 151.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "eee171a6-8c3e-4ea3-87b4-721e069d6bab")
+		)
+		(pin "BUTTON_OK" output
+			(at 137.16 151.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9cc3d62f-a52f-4596-94d7-b64e95d6949e")
+		)
+		(pin "BUTTON_LEFT" output
+			(at 144.78 151.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5a062e78-fda7-4bfa-979a-c9432da282ec")
+		)
+		(pin "BUTTON_DOWN" output
+			(at 132.08 151.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5bab0194-4cb7-48b7-837a-303d6d20021f")
+		)
+		(pin "BUTTON_UP" output
+			(at 134.62 151.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "bc27cbff-9657-4874-9008-ee422a526cd1")
+		)
+		(pin "BUTTON_RIGHT" output
+			(at 139.7 151.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1a301710-a6b7-45f6-99cb-a7b2470a7f23")
+		)
+		(pin "RESET" output
+			(at 147.32 151.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "adfdb1c4-1f82-41ba-b036-2e8a79242951")
 		)
 		(instances
 			(project "main_board"
