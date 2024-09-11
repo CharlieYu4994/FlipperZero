@@ -2297,7 +2297,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 99.06) (xy 130.81 100.33)
+			(xy 123.19 99.06) (xy 123.19 100.33)
 		)
 		(stroke
 			(width 0)
@@ -3111,76 +3111,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_TVS")
-		(at 115.57 93.98 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2a8df46d-18a0-4907-870f-a9ddc15d2fa3")
-		(property "Reference" "D2"
-			(at 118.11 92.7099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TVS"
-			(at 118.11 95.2499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 115.57 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 115.57 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 115.57 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4a69c30f-7474-47e3-b9d1-6cfe90e3b3dc")
-		)
-		(pin "1"
-			(uuid "732beb09-561e-4c23-bada-e384a2ec9e12")
-		)
-		(instances
-			(project ""
-				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/6489cd08-4275-4938-b17f-1a210ccc11a6"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 153.67 87.63 0)
 		(unit 1)
@@ -3320,34 +3250,33 @@
 	)
 	(symbol
 		(lib_id "Device:D_TVS")
-		(at 138.43 93.98 90)
+		(at 107.95 93.98 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3c7b249f-692b-4610-a120-17397410a5d2")
-		(property "Reference" "D5"
-			(at 140.97 92.7099 90)
+		(uuid "48ae79a8-8135-42f4-9e90-2644fd97e26d")
+		(property "Reference" "D1"
+			(at 106.68 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left top)
 			)
 		)
 		(property "Value" "TVS"
-			(at 140.97 95.2499 90)
+			(at 106.68 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify right top)
 			)
 		)
 		(property "Footprint" ""
-			(at 138.43 93.98 0)
+			(at 107.95 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3356,7 +3285,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 138.43 93.98 0)
+			(at 107.95 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3365,7 +3294,7 @@
 			)
 		)
 		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 138.43 93.98 0)
+			(at 107.95 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3374,15 +3303,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "c7ace36d-c15c-42a7-a350-55405a6f1eac")
+			(uuid "41161c5b-7a4c-4715-8976-bcf2f212072e")
 		)
 		(pin "1"
-			(uuid "eaa148ba-a06f-4d88-982b-f9813f6fc841")
+			(uuid "2880c2c7-c01d-4e91-9445-b05873bba06f")
 		)
 		(instances
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/6489cd08-4275-4938-b17f-1a210ccc11a6"
-					(reference "D5")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -3608,6 +3537,75 @@
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/6489cd08-4275-4938-b17f-1a210ccc11a6"
 					(reference "#PWR0114")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_TVS")
+		(at 130.81 93.98 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "68192b9f-04f4-4033-b1d4-22de680549e5")
+		(property "Reference" "D4"
+			(at 129.54 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "TVS"
+			(at 129.54 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 130.81 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode"
+			(at 130.81 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "35e9988c-e3cc-4a07-93ac-c8c8b4e1fb24")
+		)
+		(pin "1"
+			(uuid "196f5ecd-31f6-4f9a-93c4-8d08780f1dde")
+		)
+		(instances
+			(project "main_board"
+				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/6489cd08-4275-4938-b17f-1a210ccc11a6"
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -3970,6 +3968,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_TVS")
+		(at 123.19 93.98 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8a47bce3-ed26-4356-a829-7f2e178fd5c6")
+		(property "Reference" "D3"
+			(at 121.92 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "TVS"
+			(at 121.92 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.19 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode"
+			(at 123.19 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7aa9e4d7-f148-46a3-afa1-7efb4afc7159")
+		)
+		(pin "1"
+			(uuid "b9ee7c68-5ff6-4481-b5f4-b96e45e7a7ae")
+		)
+		(instances
+			(project "main_board"
+				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/6489cd08-4275-4938-b17f-1a210ccc11a6"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 115.57 170.18 0)
 		(unit 1)
@@ -4165,6 +4232,75 @@
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/6489cd08-4275-4938-b17f-1a210ccc11a6"
 					(reference "R35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_TVS")
+		(at 138.43 93.98 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "97fa9e2a-f1d5-42c0-a412-a5a925d5038a")
+		(property "Reference" "D5"
+			(at 137.16 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "TVS"
+			(at 137.16 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode"
+			(at 138.43 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b8966ce3-d45d-4fbf-b845-d0dc84aea27a")
+		)
+		(pin "1"
+			(uuid "c432c4b5-e521-487f-b1bb-8b479762b208")
+		)
+		(instances
+			(project "main_board"
+				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/6489cd08-4275-4938-b17f-1a210ccc11a6"
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -4447,146 +4583,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_TVS")
-		(at 146.05 93.98 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a6a5a0f1-a39b-479b-8c79-bb920037aea3")
-		(property "Reference" "D6"
-			(at 148.59 92.7099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TVS"
-			(at 148.59 95.2499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 146.05 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 146.05 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 146.05 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "58f1ab3e-d1a5-40ad-85c0-ee43661d2a16")
-		)
-		(pin "1"
-			(uuid "7b086c85-32b0-4321-b480-27a87cf2d664")
-		)
-		(instances
-			(project "main_board"
-				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/6489cd08-4275-4938-b17f-1a210ccc11a6"
-					(reference "D6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_TVS")
-		(at 107.95 93.98 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a6b6596f-3065-4966-a8aa-709780f5e093")
-		(property "Reference" "D1"
-			(at 110.49 92.7099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TVS"
-			(at 110.49 95.2499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 107.95 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 107.95 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 107.95 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "243989ee-22c3-43da-9c3c-3c5022163d03")
-		)
-		(pin "1"
-			(uuid "c1536140-eca2-421d-b8dc-23d811ac2377")
-		)
-		(instances
-			(project "main_board"
-				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/6489cd08-4275-4938-b17f-1a210ccc11a6"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 109.22 147.32 270)
 		(mirror x)
@@ -4717,6 +4713,75 @@
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/6489cd08-4275-4938-b17f-1a210ccc11a6"
 					(reference "#PWR0112")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_TVS")
+		(at 146.05 93.98 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "af21f56a-2e38-4e49-9070-908d46e9ad6f")
+		(property "Reference" "D6"
+			(at 144.78 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "TVS"
+			(at 144.78 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 146.05 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode"
+			(at 146.05 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "710796c8-ec18-4da0-ab3b-823d2924e274")
+		)
+		(pin "1"
+			(uuid "08dfbec6-3740-4287-a5ec-8a6dd96a37da")
+		)
+		(instances
+			(project "main_board"
+				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/6489cd08-4275-4938-b17f-1a210ccc11a6"
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -5063,7 +5128,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 130.81 100.33 0)
+		(at 123.19 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5072,7 +5137,7 @@
 		(fields_autoplaced yes)
 		(uuid "d8afb646-f2e6-45db-9690-0d34440b6fd7")
 		(property "Reference" "#PWR?"
-			(at 130.81 106.68 0)
+			(at 123.19 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5081,7 +5146,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 130.81 105.41 0)
+			(at 123.19 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5089,7 +5154,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 130.81 100.33 0)
+			(at 123.19 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5098,7 +5163,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 100.33 0)
+			(at 123.19 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5107,7 +5172,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 130.81 100.33 0)
+			(at 123.19 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5260,76 +5325,6 @@
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/6489cd08-4275-4938-b17f-1a210ccc11a6"
 					(reference "R23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_TVS")
-		(at 123.19 93.98 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dca9ef33-4f88-4a38-b6b4-7158b39445e3")
-		(property "Reference" "D3"
-			(at 125.73 92.7099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TVS"
-			(at 125.73 95.2499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 123.19 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 123.19 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 123.19 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "db55b9a8-e145-4c99-b195-a07e24588ba0")
-		)
-		(pin "1"
-			(uuid "b679909c-e58f-43fa-9060-19408202d01f")
-		)
-		(instances
-			(project "main_board"
-				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/6489cd08-4275-4938-b17f-1a210ccc11a6"
-					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -5489,76 +5484,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_TVS")
-		(at 130.81 93.98 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e0f9bb99-701b-4d9b-af46-6bd0582d3c03")
-		(property "Reference" "D4"
-			(at 133.35 92.7099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TVS"
-			(at 133.35 95.2499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 130.81 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 130.81 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 130.81 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "26180cdd-84f3-478d-9419-c832e0709625")
-		)
-		(pin "1"
-			(uuid "b0aaf7c8-1317-4c41-8e47-d1330ef1627f")
-		)
-		(instances
-			(project "main_board"
-				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/6489cd08-4275-4938-b17f-1a210ccc11a6"
-					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 133.35 168.91 180)
 		(unit 1)
@@ -5622,6 +5547,75 @@
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/6489cd08-4275-4938-b17f-1a210ccc11a6"
 					(reference "C77")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_TVS")
+		(at 115.57 93.98 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ee79997e-f572-42c7-a2b1-5bc2173870ba")
+		(property "Reference" "D2"
+			(at 114.3 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "TVS"
+			(at 114.3 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode"
+			(at 115.57 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6b3d8562-9831-41ba-b1e7-a2e70e599b3f")
+		)
+		(pin "1"
+			(uuid "1ea990df-fcf2-4e38-9e97-8757f88ae1fb")
+		)
+		(instances
+			(project "main_board"
+				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/6489cd08-4275-4938-b17f-1a210ccc11a6"
+					(reference "D2")
 					(unit 1)
 				)
 			)
