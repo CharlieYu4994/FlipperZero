@@ -12,7 +12,7 @@
 
 密钥需要在刷写Core fus后通过dfu mode刷入（STM32CubeProgrammer）。
 
-密钥文件 keys.bin，每16byte为一组密钥，共十行，对应了key_slot 1-10。
+密钥文件 keyX.bin，对应了key_slot 1-10。
 
 密钥位置定义：
 
