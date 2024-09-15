@@ -2,3 +2,6 @@
 	path = flipperzero-firmware
 	url = https://github.com/shilapi/flipperzero-firmware
 	branch = dev
+[submodule "flipper-enclave-manager"]
+	path = flipper-enclave-manager
+	url = https://github.com/shilapi/flipper-enclave-manager
