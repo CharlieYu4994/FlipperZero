@@ -133,7 +133,7 @@
 				)
 			)
 		)
-		(symbol "Device:Antenna"
+		(symbol "Device:Antenna_Shield"
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016) hide)
@@ -141,7 +141,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "AE"
-				(at -1.905 1.905 0)
+				(at -1.905 4.445 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -149,8 +149,8 @@
 					(justify right)
 				)
 			)
-			(property "Value" "Antenna"
-				(at -1.905 0 0)
+			(property "Value" "Antenna_Shield"
+				(at -1.905 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -159,7 +159,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 0 0 0)
+				(at 0 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -168,7 +168,7 @@
 				)
 			)
 			(property "Datasheet" "~"
-				(at 0 0 0)
+				(at 0 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -176,7 +176,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Antenna"
+			(property "Description" "Antenna with extra pin for shielding"
 				(at 0 0 0)
 				(effects
 					(font
@@ -194,10 +194,46 @@
 					(hide yes)
 				)
 			)
-			(symbol "Antenna_0_1"
+			(symbol "Antenna_Shield_0_1"
+				(arc
+					(start -0.508 -1.143)
+					(mid -0.8429 -2.1194)
+					(end 0 -2.667)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -2.667)
+					(mid 0.7989 -2.1052)
+					(end 0.508 -1.143)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0 -3.81)
+						(xy 0 -2.54) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 5.08) (xy 0 -3.81)
 					)
 					(stroke
 						(width 0.254)
@@ -209,7 +245,31 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 2.54) (xy 0 -2.54) (xy -1.27 2.54)
+						(xy 0.762 -1.905) (xy 2.54 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 5.08) (xy 0 0) (xy -1.27 5.08)
 					)
 					(stroke
 						(width 0.254)
@@ -217,10 +277,21 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+				(circle
+					(center 0.762 -1.905)
+					(radius 0.1778)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
 					)
 				)
 			)
-			(symbol "Antenna_1_1"
+			(symbol "Antenna_Shield_1_1"
 				(pin input line
 					(at 0 -5.08 90)
 					(length 2.54)
@@ -232,6 +303,24 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "Shield"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1140,7 +1229,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -8.89 2.54 0)
+					(at -8.89 -2.54 0)
 					(length 2.54)
 					(name "Bal"
 						(effects
@@ -1158,7 +1247,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -8.89 -2.54 0)
+					(at -8.89 2.54 0)
 					(length 2.54)
 					(name "Bal"
 						(effects
@@ -1639,115 +1728,7 @@
 							)
 						)
 					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 0 180)
-					(length 2.54)
-					(name "RF3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 5.08 180)
-					(length 2.54)
-					(name "RF1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -12.7 2.54 0)
-					(length 2.54)
-					(name "RFIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 2.54 180)
-					(length 2.54)
-					(name "RF2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 2.54 -12.7 90)
-					(length 2.54)
-					(name "DGND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 12.7 270)
-					(length 2.54)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
+					(number "A1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1765,7 +1746,43 @@
 							)
 						)
 					)
-					(number "8"
+					(number "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 12.7 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 2.54)
+					(name "RF3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1783,7 +1800,79 @@
 							)
 						)
 					)
-					(number "9"
+					(number "B2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 -12.7 90)
+					(length 2.54)
+					(name "DGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 5.08 180)
+					(length 2.54)
+					(name "RF1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 2.54 0)
+					(length 2.54)
+					(name "RFIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 2.54 180)
+					(length 2.54)
+					(name "RF2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3345,6 +3434,16 @@
 	)
 	(wire
 		(pts
+			(xy 232.41 140.97) (xy 236.22 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e33484f-7121-464f-81ab-58c3b402cffc")
+	)
+	(wire
+		(pts
 			(xy 146.05 156.21) (xy 146.05 157.48)
 		)
 		(stroke
@@ -3645,6 +3744,16 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 153.67) (xy 236.22 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a59dfb7-801c-4662-abac-8253ae7bc517")
+	)
+	(wire
+		(pts
 			(xy 46.99 157.48) (xy 46.99 158.75)
 		)
 		(stroke
@@ -3855,6 +3964,16 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 140.97) (xy 236.22 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae9c096d-44fd-43e4-8ba5-1881e100bfcc")
+	)
+	(wire
+		(pts
 			(xy 110.49 140.97) (xy 110.49 143.51)
 		)
 		(stroke
@@ -3942,6 +4061,16 @@
 			(type default)
 		)
 		(uuid "b6f67b9c-a1b3-4f4d-9717-c7b7089afa5b")
+	)
+	(wire
+		(pts
+			(xy 232.41 139.7) (xy 232.41 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf9258cc-be75-4bb6-90f7-eade2ec734ee")
 	)
 	(wire
 		(pts
@@ -4621,6 +4750,73 @@
 		(uuid "f6f7e533-50ee-4fd5-bc21-d261e5125d19")
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 236.22 156.21 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "02dee16a-f076-4f38-a013-1a81e5db04e0")
+		(property "Reference" "#PWR014"
+			(at 236.22 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 236.22 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 236.22 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 236.22 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "93fdc769-b37b-4845-801e-b85f957af611")
+		)
+		(instances
+			(project "main_board"
+				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5111dc55-0d19-493a-9207-f9f348963d5b"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 142.24 67.31 90)
 		(unit 1)
@@ -4647,7 +4843,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 146.05 66.3448 0)
 			(effects
 				(font
@@ -5047,7 +5243,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:BGA-9_3x3_1.2x1.2mm"
 			(at 148.59 143.51 0)
 			(effects
 				(font
@@ -5074,31 +5270,31 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
+		(pin "C1"
 			(uuid "13101bd7-7553-42f5-892f-66dd83c4578f")
 		)
-		(pin "9"
+		(pin "B1"
 			(uuid "8bc682cc-a084-494d-871a-d932e7c68f92")
 		)
-		(pin "2"
+		(pin "A3"
 			(uuid "fe9dc5e7-55f0-4d9f-9544-ec967812dfc8")
 		)
-		(pin "5"
+		(pin "A2"
 			(uuid "2b64ab5d-cf91-46cb-9364-50dccd3b952f")
 		)
-		(pin "3"
+		(pin "A1"
 			(uuid "49702501-f2cb-4384-bc3a-d4db50a78f83")
 		)
-		(pin "7"
+		(pin "C2"
 			(uuid "7feaa16b-8ec1-471f-9c00-6e01db5447d1")
 		)
-		(pin "6"
+		(pin "C3"
 			(uuid "88dadeb8-5812-48aa-98e6-741f15294a5f")
 		)
-		(pin "4"
+		(pin "B3"
 			(uuid "01718dcf-fc2a-4a8f-88dc-6174364b3c23")
 		)
-		(pin "8"
+		(pin "B2"
 			(uuid "f2950d33-72e2-4c62-8401-6f0a84041e30")
 		)
 		(instances
@@ -5206,7 +5402,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 204.724 61.214 90)
 			(effects
 				(font
@@ -5474,7 +5670,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
+		(property "Footprint" "Inductor_SMD:L_0201_0603Metric"
 			(at 71.12 138.43 0)
 			(effects
 				(font
@@ -5543,7 +5739,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
+		(property "Footprint" "Inductor_SMD:L_0201_0603Metric"
 			(at 86.36 161.29 0)
 			(effects
 				(font
@@ -5612,7 +5808,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 109.5248 143.51 0)
 			(effects
 				(font
@@ -5657,15 +5853,15 @@
 	(symbol
 		(lib_id "Connector:TestPoint_2Pole")
 		(at 210.82 147.32 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "28ca3c6f-a533-4a50-8afd-668065ddb119")
 		(property "Reference" "TP33"
-			(at 213.36 146.0499 90)
+			(at 213.36 148.5901 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5675,7 +5871,7 @@
 			)
 		)
 		(property "Value" "CC1101_OUT"
-			(at 213.36 147.3199 90)
+			(at 213.36 147.3201 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5683,7 +5879,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
+		(property "Footprint" "Connector_Coaxial:U.FL_Molex_MCRF_73412-0110_Vertical"
 			(at 210.82 147.32 0)
 			(effects
 				(font
@@ -6225,7 +6421,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
+		(property "Footprint" "Inductor_SMD:L_0201_0603Metric"
 			(at 71.12 161.29 0)
 			(effects
 				(font
@@ -6405,15 +6601,15 @@
 	(symbol
 		(lib_id "Connector:TestPoint_2Pole")
 		(at 222.25 68.58 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "50472967-5be1-428a-a029-dcc614bb63c8")
 		(property "Reference" "TP32"
-			(at 224.79 67.3099 90)
+			(at 224.79 69.8501 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6423,7 +6619,7 @@
 			)
 		)
 		(property "Value" "Balun"
-			(at 224.79 68.5799 90)
+			(at 224.79 68.5801 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6431,7 +6627,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
+		(property "Footprint" "Connector_Coaxial:U.FL_Molex_MCRF_73412-0110_Vertical"
 			(at 222.25 68.58 0)
 			(effects
 				(font
@@ -6770,7 +6966,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
+		(property "Footprint" "Inductor_SMD:L_0201_0603Metric"
 			(at 101.6 138.43 0)
 			(effects
 				(font
@@ -6839,7 +7035,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
+		(property "Footprint" "Inductor_SMD:L_0201_0603Metric"
 			(at 119.38 140.97 0)
 			(effects
 				(font
@@ -6908,7 +7104,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 93.0148 143.51 0)
 			(effects
 				(font
@@ -6977,7 +7173,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 146.05 61.2648 0)
 			(effects
 				(font
@@ -7112,7 +7308,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
+		(property "Footprint" "Inductor_SMD:L_0201_0603Metric"
 			(at 86.36 140.97 0)
 			(effects
 				(font
@@ -7155,7 +7351,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Antenna")
+		(lib_id "Device:Antenna_Shield")
 		(at 229.87 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7165,7 +7361,7 @@
 		(fields_autoplaced yes)
 		(uuid "6b654864-f248-4a56-9eeb-b05aa4db8507")
 		(property "Reference" "AE2"
-			(at 232.41 133.9849 0)
+			(at 233.68 132.7149 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7174,7 +7370,7 @@
 			)
 		)
 		(property "Value" "Sub 1G"
-			(at 232.41 136.5249 0)
+			(at 233.68 135.2549 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7182,8 +7378,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 229.87 134.62 0)
+		(property "Footprint" "Library:ANT_SUB1G"
+			(at 229.87 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7192,7 +7388,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 229.87 134.62 0)
+			(at 229.87 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7200,7 +7396,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Antenna"
+		(property "Description" "Antenna with extra pin for shielding"
 			(at 229.87 134.62 0)
 			(effects
 				(font
@@ -7211,6 +7407,9 @@
 		)
 		(pin "1"
 			(uuid "5f1689a3-68a1-44a7-933b-98a505496a9c")
+		)
+		(pin "2"
+			(uuid "849bb719-2c0e-4106-b544-fb5bd347fda2")
 		)
 		(instances
 			(project ""
@@ -7248,7 +7447,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
+		(property "Footprint" "Inductor_SMD:L_0201_0603Metric"
 			(at 173.99 62.23 0)
 			(effects
 				(font
@@ -7317,7 +7516,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "nductor_SMD:L_0402_1005Metric"
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
 			(at 180.34 149.86 0)
 			(effects
 				(font
@@ -7452,7 +7651,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 93.0148 127 0)
 			(effects
 				(font
@@ -7520,7 +7719,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:B0310J50100AHF"
 			(at 157.48 68.58 0)
 			(effects
 				(font
@@ -7601,7 +7800,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
+		(property "Footprint" "Inductor_SMD:L_0201_0603Metric"
 			(at 71.12 140.97 0)
 			(effects
 				(font
@@ -7938,7 +8137,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
+		(property "Footprint" "Inductor_SMD:L_0201_0603Metric"
 			(at 86.36 138.43 0)
 			(effects
 				(font
@@ -8175,6 +8374,75 @@
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5111dc55-0d19-493a-9207-f9f348963d5b"
 					(reference "#PWR090")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 236.22 149.86 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "a4afae03-5da0-4f83-b989-f8c0ee8905b0")
+		(property "Reference" "C83"
+			(at 234.95 151.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "TBD"
+			(at 234.95 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 235.2548 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 236.22 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 236.22 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8d804065-858c-4ff1-a260-d33080a00880")
+		)
+		(pin "1"
+			(uuid "2ac86943-3559-4df7-84fb-16fc2bc1ae49")
+		)
+		(instances
+			(project "main_board"
+				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5111dc55-0d19-493a-9207-f9f348963d5b"
+					(reference "C83")
 					(unit 1)
 				)
 			)
@@ -8475,7 +8743,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 195.8848 64.77 0)
 			(effects
 				(font
@@ -8611,7 +8879,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 128.27 64.77 0)
 			(effects
 				(font
@@ -8749,7 +9017,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 94.2848 165.1 0)
 			(effects
 				(font
@@ -8956,7 +9224,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 77.7748 143.51 0)
 			(effects
 				(font
@@ -9167,7 +9435,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
+		(property "Footprint" "Inductor_SMD:L_0201_0603Metric"
 			(at 189.23 62.23 0)
 			(effects
 				(font
@@ -9369,7 +9637,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:BGA-9_3x3_1.2x1.2mm"
 			(at 46.99 143.51 0)
 			(effects
 				(font
@@ -9396,31 +9664,31 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
+		(pin "A2"
 			(uuid "00666d76-6d78-408c-ad0c-8384220863e2")
 		)
-		(pin "9"
+		(pin "B1"
 			(uuid "22172c2a-6179-47fe-ad37-bb35e45bffff")
 		)
-		(pin "2"
+		(pin "B2"
 			(uuid "d080e666-cd44-43e5-9f5b-0707da82758a")
 		)
-		(pin "5"
+		(pin "A3"
 			(uuid "ba4add18-f06d-4ad2-ac45-92798a1fdfa1")
 		)
-		(pin "3"
+		(pin "A1"
 			(uuid "0d5cccca-563b-4b18-a194-e0e452a3b089")
 		)
-		(pin "7"
+		(pin "C3"
 			(uuid "e37ac80d-6ff0-4c78-88d4-4cb1046feb62")
 		)
-		(pin "6"
+		(pin "C2"
 			(uuid "48cf6a07-e5c8-47bc-991a-f25d3d196e79")
 		)
-		(pin "4"
+		(pin "C1"
 			(uuid "e83472ea-f2d4-443b-a542-22a90bc326b7")
 		)
-		(pin "8"
+		(pin "B3"
 			(uuid "f82771eb-7899-466d-9846-fbc8b990547f")
 		)
 		(instances
@@ -9459,7 +9727,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 77.7748 127 0)
 			(effects
 				(font
@@ -9661,7 +9929,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 77.7748 165.1 0)
 			(effects
 				(font
@@ -10136,7 +10404,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
+		(property "Footprint" "Inductor_SMD:L_0201_0603Metric"
 			(at 101.6 140.97 0)
 			(effects
 				(font
@@ -10340,7 +10608,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 180.6448 64.77 0)
 			(effects
 				(font

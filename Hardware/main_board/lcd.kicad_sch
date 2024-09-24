@@ -3174,7 +3174,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_1812_4532Metric"
 			(at 99.06 171.45 0)
 			(effects
 				(font
@@ -3783,7 +3783,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:CONN30x1_FH34SRJ-30S-0.5SH50_HIR"
 			(at 154.94 64.77 0)
 			(effects
 				(font

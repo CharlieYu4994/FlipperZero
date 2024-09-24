@@ -12559,7 +12559,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:DLF162500LT"
 			(at 49.53 85.09 0)
 			(effects
 				(font

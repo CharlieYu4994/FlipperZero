@@ -98,7 +98,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -8.89 2.54 0)
+				(at -8.89 -2.54 0)
 				(length 2.54)
 				(name "Bal"
 					(effects
@@ -116,7 +116,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -8.89 -2.54 0)
+				(at -8.89 2.54 0)
 				(length 2.54)
 				(name "Bal"
 					(effects
@@ -597,115 +597,7 @@
 						)
 					)
 				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 12.7 0 180)
-				(length 2.54)
-				(name "RF3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 12.7 5.08 180)
-				(length 2.54)
-				(name "RF1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -12.7 2.54 0)
-				(length 2.54)
-				(name "RFIN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 12.7 2.54 180)
-				(length 2.54)
-				(name "RF2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 2.54 -12.7 90)
-				(length 2.54)
-				(name "DGND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 0 12.7 270)
-				(length 2.54)
-				(name "VDD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "7"
+				(number "A1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -723,7 +615,43 @@
 						)
 					)
 				)
-				(number "8"
+				(number "A2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 12.7 270)
+				(length 2.54)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 12.7 0 180)
+				(length 2.54)
+				(name "RF3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -741,7 +669,79 @@
 						)
 					)
 				)
-				(number "9"
+				(number "B2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 2.54 -12.7 90)
+				(length 2.54)
+				(name "DGND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 12.7 5.08 180)
+				(length 2.54)
+				(name "RF1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -12.7 2.54 0)
+				(length 2.54)
+				(name "RFIN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 12.7 2.54 180)
+				(length 2.54)
+				(name "RF2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2342,24 +2342,6 @@
 				)
 			)
 			(pin unspecified line
-				(at 8.89 -3.81 180)
-				(length 2.54)
-				(name "EPAD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "A3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
 				(at 8.89 3.81 180)
 				(length 2.54)
 				(name "SW"
@@ -2387,7 +2369,25 @@
 						)
 					)
 				)
-				(number "B3"
+				(number "C1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 8.89 -3.81 180)
+				(length 2.54)
+				(name "EPAD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2980,7 +2980,7 @@
 				)
 			)
 			(pin passive line
-				(at -3.81 5.08 270)
+				(at 3.81 5.08 270)
 				(length 1.27)
 				(name ""
 					(effects
@@ -2998,7 +2998,7 @@
 				)
 			)
 			(pin passive line
-				(at -1.27 5.08 270)
+				(at 1.27 5.08 270)
 				(length 1.27)
 				(name ""
 					(effects
@@ -3016,7 +3016,7 @@
 				)
 			)
 			(pin passive line
-				(at 1.27 5.08 270)
+				(at -1.27 5.08 270)
 				(length 1.27)
 				(name ""
 					(effects
@@ -3034,7 +3034,7 @@
 				)
 			)
 			(pin passive line
-				(at 3.81 5.08 270)
+				(at -3.81 5.08 270)
 				(length 1.27)
 				(name ""
 					(effects

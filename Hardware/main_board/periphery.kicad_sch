@@ -3741,6 +3741,265 @@
 				)
 			)
 		)
+		(symbol "R_Park_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "RN"
+				(at 0 13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_Park"
+				(at 0 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Park_1_0_1"
+				(rectangle
+					(start -5.08 3.175)
+					(end 5.08 -3.175)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -3.81 2.159) (xy -3.048 1.8034) (xy -4.572 1.143) (xy -3.048 0.4826) (xy -4.572 -0.2032)
+						(xy -3.048 -0.889) (xy -4.572 -1.5494) (xy -3.81 -1.905) (xy -3.81 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 3.81) (xy -1.27 2.159) (xy -0.508 1.8034) (xy -2.032 1.143) (xy -0.508 0.4826) (xy -2.032 -0.2032)
+						(xy -0.508 -0.889) (xy -2.032 -1.5494) (xy -1.27 -1.905) (xy -1.27 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 3.81) (xy 1.27 2.159) (xy 2.032 1.8034) (xy 0.508 1.143) (xy 2.032 0.4826) (xy 0.508 -0.2032)
+						(xy 2.032 -0.889) (xy 0.508 -1.5494) (xy 1.27 -1.905) (xy 1.27 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 3.81) (xy 3.81 2.159) (xy 4.572 1.8034) (xy 3.048 1.143) (xy 4.572 0.4826) (xy 3.048 -0.2032)
+						(xy 4.572 -0.889) (xy 3.048 -1.5494) (xy 3.81 -1.905) (xy 3.81 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Park_1_1_1"
+				(pin passive line
+					(at -3.81 -5.08 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -1.27 -5.08 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 -5.08 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 -5.08 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 5.08 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 5.08 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -1.27 5.08 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 5.08 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers hide)
@@ -7603,7 +7862,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Card:microSD_HC_Molex_104031-0811"
+		(property "Footprint" "Library:TF_C393941"
 			(at 292.1 34.29 0)
 			(effects
 				(font
@@ -8102,7 +8361,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:PinSocket_1x10_P2.54mm_Horizontal_SMD"
 			(at 191.77 134.62 0)
 			(effects
 				(font
@@ -8472,7 +8731,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:PinSocket_1x08_P2.54mm_Horizontal_SMD"
 			(at 90.17 137.16 0)
 			(effects
 				(font
@@ -8878,6 +9137,7 @@
 	(symbol
 		(lib_id "Library:R_Park")
 		(at 172.72 130.81 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8890,7 +9150,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(justify left bottom)
 			)
 		)
 		(property "Value" "51R"
@@ -8899,7 +9159,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right top)
+				(justify right bottom)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0402"
@@ -9194,7 +9454,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A"
 			(at 91.44 124.46 0)
 			(effects
 				(font
@@ -10392,8 +10652,10 @@
 		)
 	)
 	(symbol
+		(lib_name "R_Park_1")
 		(lib_id "Library:R_Park")
 		(at 73.66 130.81 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10406,7 +10668,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(justify left bottom)
 			)
 		)
 		(property "Value" "51R"
@@ -10415,7 +10677,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right top)
+				(justify right bottom)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0402"
@@ -10751,6 +11013,7 @@
 	(symbol
 		(lib_id "Library:R_Park")
 		(at 73.66 140.97 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10763,7 +11026,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left top)
 			)
 		)
 		(property "Value" "51R"
@@ -10772,7 +11035,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify right top)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0402"
@@ -12411,7 +12674,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:BGA-12_4x3_1.6x1.2mm"
 			(at 69.85 35.56 0)
 			(effects
 				(font
@@ -12848,6 +13111,7 @@
 	(symbol
 		(lib_id "Library:R_Park")
 		(at 172.72 140.97 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12860,7 +13124,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left top)
 			)
 		)
 		(property "Value" "51R"
@@ -12869,7 +13133,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify right top)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0402"
@@ -13026,7 +13290,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:CONN18x1_FH34SRJ-18S-0.5SH50_HIR"
 			(at 276.86 127 0)
 			(effects
 				(font
@@ -13283,7 +13547,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:LED_PLCC-4_1.5x1.5mm_CW"
 			(at 90.17 50.8 0)
 			(effects
 				(font

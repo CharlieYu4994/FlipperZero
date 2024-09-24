@@ -1,0 +1,115 @@
+(footprint "ANT_SUB1G"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -14.811 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "bd212024-48a5-41f8-864c-6ecdcdf312f5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "ANT_SUB1G"
+		(at 0 -13.311 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "cbdacab8-7081-4147-9b94-634c748249e0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 -14.311 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "25502a9c-45fe-4b69-89e2-4be8829e8c0a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 -14.311 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ea7634d8-51d1-43df-a977-8da12af7e643")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 -14.311 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4e2f99c5-a625-4bbb-b421-0f4975dac179")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_poly
+		(pts
+			(xy 12.3 -1) (xy 10.1 -1) (xy 10.1 -2.5) (xy -9.4 -2.5) (xy -9.4 -1) (xy -12.4 -1) (xy -12.4 1) (xy -9.4 1)
+			(xy -9.4 2.5) (xy 10.1 2.5) (xy 10.1 1) (xy 12.3 1)
+		)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "ba08e04a-d9f2-41e5-b23f-183c4bc740c8")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -11.811 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d017fd2c-4b80-44e0-b42f-4fc7952b33e5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole oval
+		(at -10.975 0)
+		(size 2 1.4)
+		(drill oval 1.5 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "79073278-390a-4c75-85d0-3097e5c7a69b")
+	)
+	(pad "2" thru_hole circle
+		(at 11.325 0)
+		(size 1.3 1.3)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c2c7fc8c-1178-4307-8268-0d07032c044e")
+	)
+	(group ""
+		(uuid "b02eee58-23f7-4eed-91ad-56fc55a2446e")
+		(members "79073278-390a-4c75-85d0-3097e5c7a69b" "c2c7fc8c-1178-4307-8268-0d07032c044e")
+	)
+)

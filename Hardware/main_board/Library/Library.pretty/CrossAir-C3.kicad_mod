@@ -4,7 +4,7 @@
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -16.716 0)
+		(at 0 -5.12 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "85f3fabb-b9a5-4420-91a6-57de3cfc5545")
@@ -16,7 +16,7 @@
 		)
 	)
 	(property "Value" "CrossAir-C3"
-		(at 0 -15.216 0)
+		(at 0 -3.62 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "ed7edd12-6801-47d9-81d1-004299f806ac")
@@ -28,7 +28,7 @@
 		)
 	)
 	(property "Footprint" ""
-		(at 0 -16.216 0)
+		(at 0 -4.62 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -41,7 +41,7 @@
 		)
 	)
 	(property "Datasheet" ""
-		(at 0 -16.216 0)
+		(at 0 -4.62 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -54,7 +54,7 @@
 		)
 	)
 	(property "Description" ""
-		(at 0 -16.216 0)
+		(at 0 -4.62 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -99,7 +99,7 @@
 		(uuid "1cf64b76-90c8-47f1-ac10-4405cd9ddd7f")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 -13.716 0)
+		(at 0 -2.12 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "101ccb0b-618a-460b-8b77-c942a8e9eb5a")
