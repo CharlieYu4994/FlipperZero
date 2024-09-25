@@ -1311,7 +1311,7 @@
 				)
 			)
 		)
-		(symbol "Device:Crystal_GND23_Small"
+		(symbol "Device:Crystal_GND24_Small"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
@@ -1326,7 +1326,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "Crystal_GND23_Small"
+			(property "Value" "Crystal_GND24_Small"
 				(at 1.27 2.54 0)
 				(effects
 					(font
@@ -1353,7 +1353,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Four pin crystal, GND on pins 2 and 3, small symbol"
+			(property "Description" "Four pin crystal, GND on pins 2 and 4, small symbol"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1380,7 +1380,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Crystal_GND23_Small_0_1"
+			(symbol "Crystal_GND24_Small_0_1"
 				(rectangle
 					(start -0.762 -1.524)
 					(end 0.762 1.524)
@@ -1441,7 +1441,7 @@
 					)
 				)
 			)
-			(symbol "Crystal_GND23_Small_1_1"
+			(symbol "Crystal_GND24_Small_1_1"
 				(pin passive line
 					(at -2.54 0 0)
 					(length 1.27)
@@ -1479,8 +1479,8 @@
 					)
 				)
 				(pin passive line
-					(at 0 2.54 270)
-					(length 0.635)
+					(at 2.54 0 180)
+					(length 1.27)
 					(name "3"
 						(effects
 							(font
@@ -1497,8 +1497,8 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 0 180)
-					(length 1.27)
+					(at 0 2.54 270)
+					(length 0.635)
 					(name "4"
 						(effects
 							(font
@@ -11064,7 +11064,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Crystal_GND23_Small")
+		(lib_id "Device:Crystal_GND24_Small")
 		(at 96.52 81.28 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11108,7 +11108,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Four pin crystal, GND on pins 2 and 3, small symbol"
+		(property "Description" "Four pin crystal, GND on pins 2 and 4, small symbol"
 			(at 96.52 81.28 0)
 			(effects
 				(font

@@ -601,7 +601,7 @@
 				)
 			)
 		)
-		(symbol "Device:Crystal_GND23_Small"
+		(symbol "Device:Crystal_GND24_Small"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
@@ -616,7 +616,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "Crystal_GND23_Small"
+			(property "Value" "Crystal_GND24_Small"
 				(at 1.27 2.54 0)
 				(effects
 					(font
@@ -643,7 +643,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Four pin crystal, GND on pins 2 and 3, small symbol"
+			(property "Description" "Four pin crystal, GND on pins 2 and 4, small symbol"
 				(at 0 0 0)
 				(effects
 					(font
@@ -670,7 +670,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Crystal_GND23_Small_0_1"
+			(symbol "Crystal_GND24_Small_0_1"
 				(rectangle
 					(start -0.762 -1.524)
 					(end 0.762 1.524)
@@ -731,7 +731,7 @@
 					)
 				)
 			)
-			(symbol "Crystal_GND23_Small_1_1"
+			(symbol "Crystal_GND24_Small_1_1"
 				(pin passive line
 					(at -2.54 0 0)
 					(length 1.27)
@@ -769,8 +769,8 @@
 					)
 				)
 				(pin passive line
-					(at 0 2.54 270)
-					(length 0.635)
+					(at 2.54 0 180)
+					(length 1.27)
 					(name "3"
 						(effects
 							(font
@@ -787,8 +787,8 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 0 180)
-					(length 1.27)
+					(at 0 2.54 270)
+					(length 0.635)
 					(name "4"
 						(effects
 							(font
@@ -1264,10 +1264,10 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin no_connect line
 					(at 0 -7.62 90)
 					(length 2.54) hide
-					(name "DNC"
+					(name "NC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1282,7 +1282,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin no_connect line
 					(at 0 -7.62 90)
 					(length 2.54) hide
 					(name "NC"
@@ -9334,8 +9334,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Crystal_GND23_Small")
+		(lib_id "Device:Crystal_GND24_Small")
 		(at 80.01 81.28 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9348,7 +9349,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left top)
 			)
 		)
 		(property "Value" "26MHz"
@@ -9357,7 +9358,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(justify left bottom)
 			)
 		)
 		(property "Footprint" "Crystal:Crystal_SMD_2520-4Pin_2.5x2.0mm"
@@ -9378,7 +9379,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Four pin crystal, GND on pins 2 and 3, small symbol"
+		(property "Description" "Four pin crystal, GND on pins 2 and 4, small symbol"
 			(at 80.01 81.28 0)
 			(effects
 				(font

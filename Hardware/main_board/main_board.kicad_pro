@@ -127,10 +127,10 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.5,
         "min_text_thickness": 0.1,
-        "min_through_hole_diameter": 0.3,
+        "min_through_hole_diameter": 0.2,
         "min_track_width": 0.0889,
         "min_via_annular_width": 0.0889,
-        "min_via_diameter": 0.5,
+        "min_via_diameter": 0.3778,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -466,8 +466,8 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.0889,
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
+        "via_diameter": 0.3778,
+        "via_drill": 0.2,
         "wire_width": 6
       }
     ],
