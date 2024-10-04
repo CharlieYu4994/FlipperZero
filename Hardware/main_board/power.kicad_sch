@@ -757,6 +757,127 @@
 				)
 			)
 		)
+		(symbol "Device:NetTie_2"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "NT"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "NetTie_2"
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Net tie, 2 pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "net tie short"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Net*Tie*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NetTie_2_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "NetTie_2_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:Q_NMOS_DGS"
 			(pin_names
 				(offset 0) hide)
@@ -3657,7 +3778,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 62.23) (xy 181.61 62.23)
+			(xy 166.37 62.23) (xy 171.45 62.23)
 		)
 		(stroke
 			(width 0)
@@ -4794,6 +4915,16 @@
 			(type default)
 		)
 		(uuid "7f545334-3890-4a63-9350-b915c71f10eb")
+	)
+	(wire
+		(pts
+			(xy 176.53 62.23) (xy 181.61 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fcce904-6f87-41be-84df-2a34bc5488c9")
 	)
 	(wire
 		(pts
@@ -6217,8 +6348,8 @@
 		)
 		(uuid "de2427e4-8118-473a-a475-29bb363eb3e5")
 	)
-	(label "BAT_TEST"
-		(at 199.39 58.42 0)
+	(label "BAT-"
+		(at 181.61 58.42 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6226,9 +6357,9 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "2c7ff3b1-3642-43e4-a67a-e6294f032f7c")
+		(uuid "0ee4063a-c5cc-4cbe-a85b-a17b6874e718")
 	)
-	(label "BAT_TEST"
+	(label "BAT+"
 		(at 234.95 34.29 0)
 		(fields_autoplaced yes)
 		(effects
@@ -6237,7 +6368,18 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "d94b2c43-dc97-4804-a801-413df3c5ea22")
+		(uuid "29e89781-2afd-45e1-8f55-d6693244a3ef")
+	)
+	(label "BAT+"
+		(at 191.77 58.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2c7ff3b1-3642-43e4-a67a-e6294f032f7c")
 	)
 	(hierarchical_label "I2C_SCL"
 		(shape input)
@@ -6314,7 +6456,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 35.8648 173.99 0)
 			(effects
 				(font
@@ -6449,7 +6591,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 48.514 143.764 90)
 			(effects
 				(font
@@ -6585,7 +6727,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 89.2048 173.99 0)
 			(effects
 				(font
@@ -6622,6 +6764,74 @@
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
 					(reference "C36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 173.99 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0a8329a2-2fcd-4715-81ee-382739182345")
+		(property "Reference" "NT1"
+			(at 173.99 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NetTie"
+			(at 173.99 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
+			(at 173.99 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 173.99 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 173.99 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8659a8a1-57cf-4dd7-9faf-0294bcee2def")
+		)
+		(pin "1"
+			(uuid "087c1599-6588-4962-b5cf-afdd62ffda3d")
+		)
+		(instances
+			(project ""
+				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
+					(reference "NT1")
 					(unit 1)
 				)
 			)
@@ -7826,7 +8036,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 35.8648 139.7 0)
 			(effects
 				(font
@@ -8209,72 +8419,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 92.71 184.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3be52440-377c-4bff-955c-b38fd462f028")
-		(property "Reference" "#PWR067"
-			(at 92.71 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 92.71 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 92.71 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 92.71 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 92.71 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "35be49ca-c766-481b-9998-116ea2c76578")
-		)
-		(instances
-			(project "main_board"
-				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "#PWR067")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 90.17 143.51 180)
 		(unit 1)
@@ -8301,7 +8445,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 89.2048 139.7 0)
 			(effects
 				(font
@@ -8405,6 +8549,72 @@
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
 					(reference "TP30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 92.71 184.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3f3981ff-8a47-4d86-ba68-5aa2cc466c87")
+		(property "Reference" "#PWR067"
+			(at 92.71 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PGND"
+			(at 92.71 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 92.71 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2d6feb10-9350-4f4d-919b-174776fcbf6e")
+		)
+		(instances
+			(project "main_board"
+				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -8983,7 +9193,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 82.55 178.1048 0)
 			(effects
 				(font
@@ -10112,72 +10322,6 @@
 			(project ""
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
 					(reference "#PWR051")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 92.71 149.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "760965bb-c3ad-4984-9ccc-ddae484d7bb5")
-		(property "Reference" "#PWR058"
-			(at 92.71 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 92.71 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 92.71 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 92.71 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 92.71 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "958e4558-e488-491c-b7d1-974ebabbf644")
-		)
-		(instances
-			(project "main_board"
-				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -12570,6 +12714,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 92.71 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b9e0550f-7a80-4f69-9286-04b46bedcc4f")
+		(property "Reference" "#PWR058"
+			(at 92.71 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PGND"
+			(at 92.71 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 92.71 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bfa8ba2c-b912-4585-b0ea-ae68f14f163a")
+		)
+		(instances
+			(project "main_board"
+				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
+					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 177.8 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12930,7 +13140,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 82.55 143.8148 0)
 			(effects
 				(font
@@ -12967,72 +13177,6 @@
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
 					(reference "C34")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 110.49 184.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c7bcba16-6896-4857-bbdb-a4a03f61a863")
-		(property "Reference" "#PWR068"
-			(at 110.49 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 110.49 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 110.49 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 110.49 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 110.49 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "877e591b-6748-45f4-a27e-5dc110c3c106")
-		)
-		(instances
-			(project "main_board"
-				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "#PWR068")
 					(unit 1)
 				)
 			)
