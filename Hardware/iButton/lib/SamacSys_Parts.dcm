@@ -1,0 +1,27 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NE555DR
+D Single Precision Timer
+K
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP TSOP75338TR
+D Vishay TSOP75338TR, 38kHz IR Receiver, 950nm +/-50 , 45m Range, 2.5V - 5V, SMT, 6.8 x 3 x 3.2mm
+K
+F http://www.vishay.com/docs/82495/tsop753.pdf
+$ENDCMP
+#
+$CMP VSMY14940
+D IR LED 940nm 90mW/sr 9deg Side-View SMD
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA2/206314.pdf
+$ENDCMP
+#
+$CMP AFC11-S06ICC-00
+D 0.5Pitch H=4.4&4.95 FPC ZIF S/A Normal Type3 SMT CONN.
+K
+F https://datasheet.lcsc.com/szlcsc/1808101733_JUSHUO-AFC11-S06ICC-00_C262300.pdf
+$ENDCMP
+#
+#End Doc Library
