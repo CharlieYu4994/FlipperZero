@@ -1068,6 +1068,308 @@
 				)
 			)
 		)
+		(symbol "SamacSys_Parts:AO3400A"
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 11.43 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "AO3400A"
+				(at 11.43 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SOT95P280X125-3N"
+				(at 11.43 -98.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://aosmd.com/res/data_sheets/AO3400A.pdf"
+				(at 11.43 -198.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "30V N-Channel MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.25"
+				(at 11.43 -398.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" ""
+				(at 11.43 -498.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" ""
+				(at 11.43 -598.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Alpha & Omega Semiconductors"
+				(at 11.43 -698.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "AO3400A"
+				(at 11.43 -798.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "AO3400A_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 5.08) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 -0.508) (xy 5.842 0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 2.032) (xy 5.842 3.048)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 5.588) (xy 5.842 4.572)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 5.842 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 7.62 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 5.842 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 7.62 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 2.54) (xy 6.858 3.048) (xy 6.858 2.032) (xy 5.842 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 6.35 2.54)
+					(radius 3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 10.16 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "SamacSys_Parts:TSOP75338TR"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1532,301 +1834,6 @@
 				)
 			)
 		)
-		(symbol "Transistor_FET:DMN2058U"
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "DMN2058U"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-				(at 5.08 -1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.diodes.com/assets/Datasheets/DMN2058U.pdf"
-				(at 5.08 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "4.6A Id, 20V Vds, N-Channel MOSFET, SOT-23"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "N-Channel MOSFET"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT?23*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "DMN2058U_0_1"
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "DMN2058U_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -2003,16 +2010,22 @@
 		(uuid "920d7c71-c8ec-4b9c-8006-99c94ce39e84")
 	)
 	(junction
+		(at 158.75 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a05014f9-c2c9-4d4f-9762-33cc5752eac2")
+	)
+	(junction
 		(at 114.3 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a2255ecd-ddae-4d0a-9fac-639607ee7e28")
 	)
 	(junction
-		(at 158.75 139.7)
+		(at 127 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ad0d7ef6-3d49-46df-a9b3-35743558ac2b")
+		(uuid "b5fe33fe-32bf-4b17-8603-2b2344950471")
 	)
 	(junction
 		(at 228.6 52.07)
@@ -2051,10 +2064,26 @@
 		(uuid "ea11e278-3451-45c5-9690-5490cb1171de")
 	)
 	(junction
+		(at 171.45 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f141c2aa-a408-4f64-b285-f3d949ae9f34")
+	)
+	(junction
 		(at 82.55 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f68b7e4d-26bc-45c6-8c61-ebc92f625015")
+	)
+	(wire
+		(pts
+			(xy 127 62.23) (xy 127 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0075e88d-31e6-46ca-82e1-9bcd4c49ffc9")
 	)
 	(wire
 		(pts
@@ -2065,16 +2094,6 @@
 			(type default)
 		)
 		(uuid "061a0daf-bbb1-4154-815c-991b7479993f")
-	)
-	(wire
-		(pts
-			(xy 158.75 127) (xy 158.75 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "06b351fe-babd-4ab2-b693-bc804770ab59")
 	)
 	(wire
 		(pts
@@ -2148,7 +2167,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 57.15) (xy 127 66.04)
+			(xy 127 57.15) (xy 127 62.23)
 		)
 		(stroke
 			(width 0)
@@ -2288,7 +2307,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 139.7) (xy 163.83 139.7)
+			(xy 158.75 143.51) (xy 163.83 143.51)
 		)
 		(stroke
 			(width 0)
@@ -2318,13 +2337,23 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 144.78) (xy 171.45 165.1)
+			(xy 171.45 148.59) (xy 171.45 165.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "5573c45d-40d5-4c86-9793-305a5b6af98d")
+	)
+	(wire
+		(pts
+			(xy 127 81.28) (xy 127 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "567e2afa-5d87-4994-9405-d9a4bb2ed10c")
 	)
 	(wire
 		(pts
@@ -2338,13 +2367,13 @@
 	)
 	(wire
 		(pts
-			(xy 127 81.28) (xy 127 96.52)
+			(xy 158.75 143.51) (xy 158.75 148.59)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "626b9c1c-22d5-4143-bbf8-aa30f75d83b9")
+		(uuid "61f68f08-e639-416d-a8ab-39af7ce44d6e")
 	)
 	(wire
 		(pts
@@ -2425,6 +2454,16 @@
 			(type default)
 		)
 		(uuid "74aaea68-68ec-43cc-b051-fdc98069a63d")
+	)
+	(wire
+		(pts
+			(xy 171.45 127) (xy 171.45 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "767c67fb-237f-4628-961f-86108eb3f7ad")
 	)
 	(wire
 		(pts
@@ -2608,6 +2647,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 133.35) (xy 171.45 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aba3a458-8fb7-44bc-ab3f-daf519eabb9f")
+	)
+	(wire
+		(pts
 			(xy 101.6 120.65) (xy 101.6 129.54)
 		)
 		(stroke
@@ -2708,26 +2757,6 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 139.7) (xy 158.75 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d576b9dc-b356-4a51-83b4-1fbd7ee0b8c1")
-	)
-	(wire
-		(pts
-			(xy 171.45 127) (xy 171.45 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dba660eb-1f50-45ff-9212-36a495149c32")
-	)
-	(wire
-		(pts
 			(xy 158.75 127) (xy 149.86 127)
 		)
 		(stroke
@@ -2745,6 +2774,16 @@
 			(type default)
 		)
 		(uuid "de12ba09-70d5-4b6a-bdd5-c9e8c181d9d1")
+	)
+	(wire
+		(pts
+			(xy 158.75 127) (xy 158.75 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dff95331-e553-46ff-98cd-f501cd165b41")
 	)
 	(wire
 		(pts
@@ -3857,7 +3896,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 127 66.04 90)
+		(at 127 62.23 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3865,7 +3904,7 @@
 		(dnp no)
 		(uuid "3070a8a3-2f6f-4da0-8893-080fb2e8c5bd")
 		(property "Reference" "SPEAKER1"
-			(at 121.412 61.468 90)
+			(at 121.412 57.658 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3873,7 +3912,7 @@
 			)
 		)
 		(property "Value" "SPEAKER1"
-			(at 121.412 63.754 90)
+			(at 121.412 59.944 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3881,7 +3920,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 127 60.96 0)
+			(at 127 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3890,7 +3929,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 127 60.96 0)
+			(at 127 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3899,7 +3938,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 127 66.04 0)
+			(at 127 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4192,8 +4231,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:DMN2058U")
-		(at 124.46 76.2 0)
+		(lib_id "SamacSys_Parts:AO3400A")
+		(at 119.38 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4202,6 +4241,15 @@
 		(fields_autoplaced yes)
 		(uuid "56d890f2-5779-48d5-88b8-5810fbdec806")
 		(property "Reference" "VT1b1"
+			(at 130.81 72.3899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AO3400A"
 			(at 130.81 74.9299 0)
 			(effects
 				(font
@@ -4210,42 +4258,82 @@
 				(justify left)
 			)
 		)
-		(property "Value" "DMN2058UW-7"
-			(at 130.81 77.4699 0)
+		(property "Footprint" "SOT95P280X125-3N"
+			(at 130.81 174.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 129.54 78.105 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.diodes.com/assets/Datasheets/DMN2058U.pdf"
-			(at 129.54 80.01 0)
+		(property "Datasheet" "http://aosmd.com/res/data_sheets/AO3400A.pdf"
+			(at 130.81 274.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" "4.6A Id, 20V Vds, N-Channel MOSFET, SOT-23"
-			(at 124.46 76.2 0)
+		(property "Description" "30V N-Channel MOSFET"
+			(at 119.38 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.25"
+			(at 130.81 474.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 130.81 574.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 130.81 674.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Alpha & Omega Semiconductors"
+			(at 130.81 774.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AO3400A"
+			(at 130.81 874.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
 				(hide yes)
 			)
 		)
@@ -4476,8 +4564,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:DMN2058U")
-		(at 168.91 139.7 0)
+		(lib_id "SamacSys_Parts:AO3400A")
+		(at 163.83 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4486,7 +4574,7 @@
 		(fields_autoplaced yes)
 		(uuid "6f1c5037-a162-435d-b869-b899b8065fcf")
 		(property "Reference" "VT2b1"
-			(at 175.26 138.4299 0)
+			(at 175.26 139.6999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4494,8 +4582,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "DMN2058UW-7"
-			(at 175.26 140.9699 0)
+		(property "Value" "AO3400A"
+			(at 175.26 142.2399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4503,33 +4591,82 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 173.99 141.605 0)
+		(property "Footprint" "SOT95P280X125-3N"
+			(at 175.26 242.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
-				(justify left)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.diodes.com/assets/Datasheets/DMN2058U.pdf"
-			(at 173.99 143.51 0)
+		(property "Datasheet" "http://aosmd.com/res/data_sheets/AO3400A.pdf"
+			(at 175.26 342.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" "4.6A Id, 20V Vds, N-Channel MOSFET, SOT-23"
-			(at 168.91 139.7 0)
+		(property "Description" "30V N-Channel MOSFET"
+			(at 163.83 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.25"
+			(at 175.26 542.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 175.26 642.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 175.26 742.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Alpha & Omega Semiconductors"
+			(at 175.26 842.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AO3400A"
+			(at 175.26 942.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
 				(hide yes)
 			)
 		)

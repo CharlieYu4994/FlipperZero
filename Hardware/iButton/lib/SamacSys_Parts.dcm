@@ -24,4 +24,46 @@ K
 F https://datasheet.lcsc.com/szlcsc/1808101733_JUSHUO-AFC11-S06ICC-00_C262300.pdf
 $ENDCMP
 #
+$CMP ST25R3916-AQWT
+D STMICROELECTRONICS - ST25R3916-AQWT - RFID, READ/WRITE, 13.56MHZ, VFQFPN-32
+K
+F https://www.st.com/resource/en/datasheet/st25r3916.pdf
+$ENDCMP
+#
+$CMP ECS-271.2-10-30B-RWY-TR
+D Crystals 27.120 MHz +/-15ppm +/-15ppm 10pF 30 Ohm Fundamental -30 C 85 C - Surface Mount 4-SMD, 5032
+K
+F https://ecsxtal.com/store/pdf/ecx_53b.pdf
+$ENDCMP
+#
+$CMP MM8030-2610RK0
+D 1 Inner bore SWG Board Edge 0.45mm 11GHz 50 1.35mm SMD RF Connectors / Coaxial Connectors ROHS
+K
+F https://datasheet.lcsc.com/lcsc/1811061528_Murata-Electronics-MM8030-2610RK0_C91632.pdf
+$ENDCMP
+#
+$CMP FH34SRJ-18S-0.5SH_50_
+D FFC & FPC Connectors 18P SMT HORIZ ZIF AU 1MM HGHT .5MM PITCH
+K
+F https://componentsearchengine.com/Datasheets/2/FH34SRJ-18S-0.5SH(50).pdf
+$ENDCMP
+#
+$CMP FAN48610BUC50X
+D Fairchild Semiconductor FAN48610BUC50X, Boost Converter, Synchronous Boost Regulator 1000mA Maximum of 5 V, 3 MHz
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/df3e85b90ab3bcbb613a20fbddbf2a27.pdf
+$ENDCMP
+#
+$CMP AO3400A
+D 30V N-Channel MOSFET
+K
+F http://aosmd.com/res/data_sheets/AO3400A.pdf
+$ENDCMP
+#
+$CMP 1N4148X-TP
+D Switching Diodes
+K
+F https://mccsemi.com/pdf/Products/1N4148X(SOD-523).pdf
+$ENDCMP
+#
 #End Doc Library
