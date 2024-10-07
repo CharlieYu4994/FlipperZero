@@ -879,7 +879,7 @@
 				)
 			)
 		)
-		(symbol "Device:Q_NMOS_DGS"
+		(symbol "Device:Q_NMOS_GSD"
 			(pin_names
 				(offset 0) hide)
 			(exclude_from_sim no)
@@ -894,7 +894,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "Q_NMOS_DGS"
+			(property "Value" "Q_NMOS_GSD"
 				(at 5.08 -1.27 0)
 				(effects
 					(font
@@ -921,7 +921,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "N-MOSFET transistor, drain/gate/source"
+			(property "Description" "N-MOSFET transistor, gate/source/drain"
 				(at 0 0 0)
 				(effects
 					(font
@@ -939,7 +939,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Q_NMOS_DGS_0_1"
+			(symbol "Q_NMOS_GSD_0_1"
 				(polyline
 					(pts
 						(xy 0.254 0) (xy -2.54 0)
@@ -1106,11 +1106,11 @@
 					)
 				)
 			)
-			(symbol "Q_NMOS_DGS_1_1"
-				(pin passive line
-					(at 2.54 5.08 270)
+			(symbol "Q_NMOS_GSD_1_1"
+				(pin input line
+					(at -5.08 0 0)
 					(length 2.54)
-					(name "D"
+					(name "G"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1125,10 +1125,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at -5.08 0 0)
+				(pin passive line
+					(at 2.54 -5.08 90)
 					(length 2.54)
-					(name "G"
+					(name "S"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1144,9 +1144,9 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 -5.08 90)
+					(at 2.54 5.08 270)
 					(length 2.54)
-					(name "S"
+					(name "D"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -10187,7 +10187,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "SYS"
+		(property "Value" "VSYS"
 			(at 38.1 80.01 0)
 			(effects
 				(font
@@ -10261,7 +10261,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 126.0348 48.26 0)
 			(effects
 				(font
@@ -10595,7 +10595,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 120.9548 48.26 0)
 			(effects
 				(font
@@ -10976,7 +10976,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Q_NMOS_DGS")
+		(lib_id "Device:Q_NMOS_GSD")
 		(at 45.72 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11021,7 +11021,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "N-MOSFET transistor, drain/gate/source"
+		(property "Description" "N-MOSFET transistor, gate/source/drain"
 			(at 45.72 92.71 0)
 			(effects
 				(font
@@ -13640,7 +13640,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 140.0048 40.64 0)
 			(effects
 				(font
@@ -14449,7 +14449,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 134.9248 40.64 0)
 			(effects
 				(font
