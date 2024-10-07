@@ -2563,7 +2563,7 @@
 	)
 	(hierarchical_label "BUTTON_LEFT"
 		(shape output)
-		(at 82.55 68.58 180)
+		(at 82.55 74.93 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2575,7 +2575,7 @@
 	)
 	(hierarchical_label "BUTTON_RIGHT"
 		(shape output)
-		(at 82.55 74.93 180)
+		(at 82.55 68.58 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2999,7 +2999,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_SPST_NO_Alps_SKRK"
+		(property "Footprint" "Library:SW_Push_SPST_NO_Alps_ SKRM"
 			(at 153.67 50.8 0)
 			(effects
 				(font
