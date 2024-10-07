@@ -1,0 +1,17 @@
+### Footprint positions - created on 2024-10-07T18:53:48+0800 ###
+### Printed by KiCad version 8.0.4
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val                Package                       PosX       PosY       Rot  Side
+BA1b1     SMD-5025-0340-12Ω  BUZ-SMD_3P-L5.0-W5.0-BL   166.0698   -98.0141  -55.0000  bottom
+R1b1      22                 R_0402_1005Metric         163.8230   -97.7103  -90.0000  bottom
+R5b1      39                 R_0402_1005Metric         163.8300   -88.3920  -55.0000  bottom
+R6b1      150                R_0402_1005Metric         160.1724   -94.6658    0.0000  bottom
+R7b1      10                 R_0402_1005Metric         165.4556   -97.2566    0.0000  bottom
+R8b1      10k                R_0402_1005Metric         161.2138   -92.3798   35.0000  bottom
+R9b1      39                 R_0402_1005Metric         170.4086   -99.0600   35.0000  bottom
+R10b1     39                 R_0402_1005Metric         165.2524   -95.7326   35.0000  bottom
+VD3b1     VSMY14940          LEDC3012X261N             168.8846   -96.5962  -55.0000  bottom
+VD4b1     VSMY14940          LEDC3012X261N             166.0398   -92.6338  -55.0000  bottom
+VT2b1     DMN2058UW-7        SOT-23                    163.2204   -94.1324  -55.0000  bottom
+## End

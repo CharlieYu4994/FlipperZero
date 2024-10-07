@@ -66,4 +66,22 @@ K
 F https://mccsemi.com/pdf/Products/1N4148X(SOD-523).pdf
 $ENDCMP
 #
+$CMP LMV331IDCKR
+D Texas Instruments LMV331IDCKR Comparator, Open Collector O/P, 2.7  5.5 V 5-Pin SC-70
+K
+F http://www.ti.com/lit/gpn/lmv331
+$ENDCMP
+#
+$CMP BZT52C33S-TP
+D Zener Diodes
+K
+F https://www.mccsemi.com/pdf/Products/BZT52C2V0S-BZT52C56S(200mW)(SOD-323).pdf
+$ENDCMP
+#
+$CMP AFH34-S06FIA-1H
+D SMD,P=0.5mm FFC/FPC Connectors ROHS
+K
+F https://www.lcsc.com/datasheet/lcsc_datasheet_2208151830_JUSHUO-AFH34-S06FIA-1H_C5139821.pdf
+$ENDCMP
+#
 #End Doc Library
