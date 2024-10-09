@@ -2,7 +2,7 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "5a63cbd1-4765-4aac-87fd-14b59cad0421")
+	(uuid "272559e6-6b51-406d-a6a5-8e417b8edab2")
 	(paper "A3")
 	(lib_symbols
 		(symbol "Amplifier_Operational:LMV358"
@@ -5498,7 +5498,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 120.65 52.578 90)
 			(effects
 				(font
@@ -5568,7 +5568,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 55.372 104.14 90)
 			(effects
 				(font
@@ -5678,7 +5678,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 95.25 207.01 0)
+		(at 95.25 207.01 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5692,7 +5692,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "10k"
@@ -5701,11 +5701,11 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 93.472 207.01 90)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 97.028 207.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5774,7 +5774,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 119.0752 146.05 0)
 			(effects
 				(font
@@ -5844,7 +5844,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 42.672 161.29 90)
 			(effects
 				(font
@@ -6066,7 +6066,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 366.522 139.7 90)
 			(effects
 				(font
@@ -6136,7 +6136,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SamacSys_Parts:SOP65P490X110-8N"
 			(at 383.54 222.25 0)
 			(effects
 				(font
@@ -6224,7 +6224,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 131.7752 146.05 0)
 			(effects
 				(font
@@ -6292,7 +6292,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 139.7 52.578 90)
 			(effects
 				(font
@@ -6429,7 +6429,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 152.4 29.21 0)
 			(effects
 				(font
@@ -6496,7 +6496,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 199.39 123.19 0)
 			(effects
 				(font
@@ -6627,7 +6627,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SamacSys_Parts:SOP65P490X110-8N"
 			(at 256.54 127 0)
 			(effects
 				(font
@@ -6655,16 +6655,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "033cb61f-1078-4e86-8938-2aeb0e3429f7")
+			(uuid "033cb61f-1078-4e86-8938-2aeb0e3429f8")
 		)
 		(pin "3"
-			(uuid "eaa9a036-a2be-4c20-9caa-c8fdbe282dd8")
+			(uuid "eaa9a036-a2be-4c20-9caa-c8fdbe282dd9")
 		)
 		(pin "6"
-			(uuid "a4ce5cad-e72d-4e9e-a57c-70029746828c")
+			(uuid "a4ce5cad-e72d-4e9e-a57c-70029746828d")
 		)
 		(pin "7"
-			(uuid "56547db0-9720-446f-8060-53e3f3984c82")
+			(uuid "56547db0-9720-446f-8060-53e3f3984c83")
 		)
 		(pin "4"
 			(uuid "73d1973c-a4e1-4757-9405-30c24a0f3918")
@@ -6673,10 +6673,10 @@
 			(uuid "085636d2-ed03-4307-bfca-3c6ba5a7181b")
 		)
 		(pin "2"
-			(uuid "892bcd98-b767-45d5-a43b-814497375932")
+			(uuid "892bcd98-b767-45d5-a43b-814497375933")
 		)
 		(pin "5"
-			(uuid "a91287ce-9b48-4569-b8d2-331a596693c7")
+			(uuid "a91287ce-9b48-4569-b8d2-331a596693c8")
 		)
 		(instances
 			(project ""
@@ -6781,7 +6781,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SamacSys_Parts:SOP65P490X110-8N"
 			(at 332.74 222.25 0)
 			(effects
 				(font
@@ -6809,28 +6809,28 @@
 			)
 		)
 		(pin "1"
-			(uuid "033cb61f-1078-4e86-8938-2aeb0e3429f7")
+			(uuid "033cb61f-1078-4e86-8938-2aeb0e3429f9")
 		)
 		(pin "3"
-			(uuid "eaa9a036-a2be-4c20-9caa-c8fdbe282dd8")
+			(uuid "eaa9a036-a2be-4c20-9caa-c8fdbe282dda")
 		)
 		(pin "6"
-			(uuid "a4ce5cad-e72d-4e9e-a57c-70029746828c")
+			(uuid "a4ce5cad-e72d-4e9e-a57c-70029746828e")
 		)
 		(pin "7"
-			(uuid "56547db0-9720-446f-8060-53e3f3984c82")
+			(uuid "56547db0-9720-446f-8060-53e3f3984c84")
 		)
 		(pin "4"
-			(uuid "73d1973c-a4e1-4757-9405-30c24a0f3918")
+			(uuid "73d1973c-a4e1-4757-9405-30c24a0f3919")
 		)
 		(pin "8"
-			(uuid "085636d2-ed03-4307-bfca-3c6ba5a7181b")
+			(uuid "085636d2-ed03-4307-bfca-3c6ba5a7181c")
 		)
 		(pin "2"
-			(uuid "892bcd98-b767-45d5-a43b-814497375932")
+			(uuid "892bcd98-b767-45d5-a43b-814497375934")
 		)
 		(pin "5"
-			(uuid "a91287ce-9b48-4569-b8d2-331a596693c7")
+			(uuid "a91287ce-9b48-4569-b8d2-331a596693c9")
 		)
 		(instances
 			(project ""
@@ -6933,7 +6933,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SamacSys_Parts:SOP65P490X110-8N"
 			(at 355.6 132.08 0)
 			(effects
 				(font
@@ -6961,10 +6961,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "033cb61f-1078-4e86-8938-2aeb0e3429f7")
+			(uuid "033cb61f-1078-4e86-8938-2aeb0e3429fa")
 		)
 		(pin "3"
-			(uuid "eaa9a036-a2be-4c20-9caa-c8fdbe282dd8")
+			(uuid "eaa9a036-a2be-4c20-9caa-c8fdbe282ddb")
 		)
 		(pin "6"
 			(uuid "6080fddc-0827-4aae-a381-e63485ceffb1")
@@ -6973,13 +6973,13 @@
 			(uuid "baf099c4-4eb5-453f-b73d-38ae15058ce1")
 		)
 		(pin "4"
-			(uuid "73d1973c-a4e1-4757-9405-30c24a0f3918")
+			(uuid "73d1973c-a4e1-4757-9405-30c24a0f391a")
 		)
 		(pin "8"
-			(uuid "085636d2-ed03-4307-bfca-3c6ba5a7181b")
+			(uuid "085636d2-ed03-4307-bfca-3c6ba5a7181d")
 		)
 		(pin "2"
-			(uuid "892bcd98-b767-45d5-a43b-814497375932")
+			(uuid "892bcd98-b767-45d5-a43b-814497375935")
 		)
 		(pin "5"
 			(uuid "0955bbd0-f689-481a-ba90-2cf7a0d5830e")
@@ -7085,7 +7085,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SamacSys_Parts:SOP65P490X110-8N"
 			(at 198.12 227.33 0)
 			(effects
 				(font
@@ -7113,28 +7113,28 @@
 			)
 		)
 		(pin "1"
-			(uuid "033cb61f-1078-4e86-8938-2aeb0e3429f7")
+			(uuid "033cb61f-1078-4e86-8938-2aeb0e3429fb")
 		)
 		(pin "3"
-			(uuid "eaa9a036-a2be-4c20-9caa-c8fdbe282dd8")
+			(uuid "eaa9a036-a2be-4c20-9caa-c8fdbe282ddc")
 		)
 		(pin "6"
-			(uuid "a4ce5cad-e72d-4e9e-a57c-70029746828c")
+			(uuid "a4ce5cad-e72d-4e9e-a57c-70029746828f")
 		)
 		(pin "7"
-			(uuid "56547db0-9720-446f-8060-53e3f3984c82")
+			(uuid "56547db0-9720-446f-8060-53e3f3984c85")
 		)
 		(pin "4"
-			(uuid "73d1973c-a4e1-4757-9405-30c24a0f3918")
+			(uuid "73d1973c-a4e1-4757-9405-30c24a0f391b")
 		)
 		(pin "8"
-			(uuid "085636d2-ed03-4307-bfca-3c6ba5a7181b")
+			(uuid "085636d2-ed03-4307-bfca-3c6ba5a7181e")
 		)
 		(pin "2"
-			(uuid "892bcd98-b767-45d5-a43b-814497375932")
+			(uuid "892bcd98-b767-45d5-a43b-814497375936")
 		)
 		(pin "5"
-			(uuid "a91287ce-9b48-4569-b8d2-331a596693c7")
+			(uuid "a91287ce-9b48-4569-b8d2-331a596693ca")
 		)
 		(instances
 			(project ""
@@ -7237,7 +7237,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 101.6 231.902 90)
 			(effects
 				(font
@@ -7373,7 +7373,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 379.222 161.29 90)
 			(effects
 				(font
@@ -7441,7 +7441,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 375.92 209.8548 0)
 			(effects
 				(font
@@ -7509,7 +7509,7 @@
 				)
 			)
 		)
-		(property "Footprint" "AFH34S06FIA1H"
+		(property "Footprint" "SamacSys_Parts:AFH34S06FIA1H"
 			(at 71.12 320.98 0)
 			(effects
 				(font
@@ -7647,7 +7647,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 149.86 131.318 90)
 			(effects
 				(font
@@ -7783,7 +7783,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 243.078 82.55 90)
 			(effects
 				(font
@@ -7851,7 +7851,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 247.65 224.028 90)
 			(effects
 				(font
@@ -7921,7 +7921,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 260.35 227.33 0)
 			(effects
 				(font
@@ -7986,7 +7986,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 160.02 90.4748 0)
 			(effects
 				(font
@@ -8056,7 +8056,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 242.2652 238.76 0)
 			(effects
 				(font
@@ -8126,7 +8126,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 167.132 64.77 90)
 			(effects
 				(font
@@ -8611,7 +8611,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 124.46 103.378 90)
 			(effects
 				(font
@@ -8750,7 +8750,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 215.9 205.74 0)
 			(effects
 				(font
@@ -8817,7 +8817,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 291.1348 110.49 0)
 			(effects
 				(font
@@ -9106,7 +9106,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 176.022 214.63 90)
 			(effects
 				(font
@@ -9176,7 +9176,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 277.622 114.3 90)
 			(effects
 				(font
@@ -9244,7 +9244,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 205.74 131.318 90)
 			(effects
 				(font
@@ -9378,7 +9378,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 273.05 125.222 90)
 			(effects
 				(font
@@ -9446,7 +9446,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SamacSys_Parts:SOP65P490X110-8N"
 			(at 304.8 129.54 0)
 			(effects
 				(font
@@ -9480,22 +9480,22 @@
 			(uuid "80b16268-e928-4636-b3ae-a60e83337268")
 		)
 		(pin "6"
-			(uuid "a4ce5cad-e72d-4e9e-a57c-70029746828c")
+			(uuid "a4ce5cad-e72d-4e9e-a57c-700297468290")
 		)
 		(pin "7"
-			(uuid "56547db0-9720-446f-8060-53e3f3984c82")
+			(uuid "56547db0-9720-446f-8060-53e3f3984c86")
 		)
 		(pin "4"
-			(uuid "73d1973c-a4e1-4757-9405-30c24a0f3918")
+			(uuid "73d1973c-a4e1-4757-9405-30c24a0f391c")
 		)
 		(pin "8"
-			(uuid "085636d2-ed03-4307-bfca-3c6ba5a7181b")
+			(uuid "085636d2-ed03-4307-bfca-3c6ba5a7181f")
 		)
 		(pin "2"
 			(uuid "8409c2c4-cfcb-4b54-9773-2071e1c79952")
 		)
 		(pin "5"
-			(uuid "a91287ce-9b48-4569-b8d2-331a596693c7")
+			(uuid "a91287ce-9b48-4569-b8d2-331a596693cb")
 		)
 		(instances
 			(project "nfc_rfid"
@@ -9534,7 +9534,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 214.3252 146.05 0)
 			(effects
 				(font
@@ -9869,7 +9869,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 149.86 80.518 90)
 			(effects
 				(font
@@ -9996,7 +9996,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "AO3400A"
+		(property "Value" "DMN5L06TK-7"
 			(at 165.1 49.5299 0)
 			(effects
 				(font
@@ -10005,7 +10005,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SOT95P280X125-3N"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-523"
 			(at 165.1 149.53 0)
 			(effects
 				(font
@@ -10128,7 +10128,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 336.55 127.762 90)
 			(effects
 				(font
@@ -10331,7 +10331,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 167.132 142.24 90)
 			(effects
 				(font
@@ -10399,7 +10399,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 323.85 127.762 90)
 			(effects
 				(font
@@ -10469,7 +10469,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 341.9348 110.49 0)
 			(effects
 				(font
@@ -10605,7 +10605,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 141.732 142.24 90)
 			(effects
 				(font
@@ -10805,7 +10805,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 31.75 150.368 90)
 			(effects
 				(font
@@ -11006,7 +11006,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SOD2512X115N"
+		(property "Footprint" "SamacSys_Parts:SOD2512X115N"
 			(at 87.96 144.78 0)
 			(effects
 				(font
@@ -11194,7 +11194,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 367.3348 157.48 0)
 			(effects
 				(font
@@ -11264,7 +11264,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 329.2348 138.43 0)
 			(effects
 				(font
@@ -11391,7 +11391,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "AO3400A"
+		(property "Value" "DMN2004TK-7"
 			(at 60.96 147.3199 0)
 			(effects
 				(font
@@ -11400,7 +11400,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SOT95P280X125-3N"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-523"
 			(at 60.96 247.32 0)
 			(effects
 				(font
@@ -11609,7 +11609,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 224.79 128.5748 0)
 			(effects
 				(font
@@ -11679,7 +11679,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 75.692 116.84 90)
 			(effects
 				(font
@@ -11740,7 +11740,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "AO3400A"
+		(property "Value" "DMN2004TK-7"
 			(at 81.28 161.2899 0)
 			(effects
 				(font
@@ -11749,7 +11749,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SOT95P280X125-3N"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-523"
 			(at 81.28 261.29 0)
 			(effects
 				(font
@@ -11874,7 +11874,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 195.2752 146.05 0)
 			(effects
 				(font
@@ -12010,7 +12010,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 104.14 135.89 0)
 			(effects
 				(font
@@ -12207,7 +12207,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 255.27 112.522 90)
 			(effects
 				(font
@@ -12410,7 +12410,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 112.522 226.06 90)
 			(effects
 				(font
@@ -12697,7 +12697,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SamacSys_Parts:SOT65P210X110-5N"
 			(at 149.86 101.6 0)
 			(effects
 				(font
@@ -12776,7 +12776,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 176.022 240.03 90)
 			(effects
 				(font
@@ -12844,7 +12844,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 325.12 209.8548 0)
 			(effects
 				(font
@@ -12912,7 +12912,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 285.75 125.222 90)
 			(effects
 				(font
@@ -12982,7 +12982,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 328.422 114.3 90)
 			(effects
 				(font
@@ -13043,7 +13043,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "AO3401A"
+		(property "Value" "DMP2004TK-7"
 			(at 81.28 105.4099 0)
 			(effects
 				(font
@@ -13052,7 +13052,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-523"
 			(at 80.01 106.045 0)
 			(effects
 				(font
@@ -13128,7 +13128,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 278.4348 138.43 0)
 			(effects
 				(font
@@ -13396,7 +13396,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 75.692 142.24 90)
 			(effects
 				(font
@@ -13464,7 +13464,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 259.08 100.6348 0)
 			(effects
 				(font
@@ -13534,7 +13534,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 166.0652 243.84 0)
 			(effects
 				(font
@@ -13604,7 +13604,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 91.44 135.89 0)
 			(effects
 				(font
@@ -13671,7 +13671,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 254.9652 238.76 0)
 			(effects
 				(font
@@ -13741,7 +13741,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 177.038 95.25 90)
 			(effects
 				(font
@@ -13943,7 +13943,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 231.648 142.24 90)
 			(effects
 				(font

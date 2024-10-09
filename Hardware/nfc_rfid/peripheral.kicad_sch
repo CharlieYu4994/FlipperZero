@@ -2,7 +2,7 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "13f23b5f-6bfc-40b1-a2dd-736296f1663f")
+	(uuid "d9a34bdc-522f-45b5-921a-81b7420a9943")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Connector:TestPoint"
@@ -4425,7 +4425,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:FH34SRJ18S05SH50"
+		(property "Footprint" "Library:CONN18x1_FH34SRJ-18S-0.5SH50_HIR"
 			(at 59.69 -12.37 0)
 			(effects
 				(font
@@ -5660,7 +5660,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
+		(property "Footprint" "Inductor_SMD:L_Murata_DFE201610P"
 			(at 44.45 146.05 0)
 			(effects
 				(font
@@ -5707,7 +5707,7 @@
 		(at 220.98 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -5721,7 +5721,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Vibro_-"
+		(property "Value" "-"
 			(at 223.52 50.7999 0)
 			(effects
 				(font
@@ -5730,7 +5730,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Library:SMD_L3.4-W0.9"
+		(property "Footprint" "Library:TestPoint_Pad_3.0x2.0mm_round_corner_no_silkscreen"
 			(at 220.98 49.53 0)
 			(effects
 				(font
@@ -6172,7 +6172,7 @@
 		(at 220.98 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -6186,7 +6186,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Vibro_+"
+		(property "Value" "+"
 			(at 223.52 45.7199 0)
 			(effects
 				(font
@@ -6195,7 +6195,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Library:SMD_L3.4-W0.9"
+		(property "Footprint" "Library:TestPoint_Pad_3.0x2.0mm_round_corner_no_silkscreen"
 			(at 220.98 44.45 0)
 			(effects
 				(font

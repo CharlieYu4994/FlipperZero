@@ -2,7 +2,7 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "aa4d0f63-41e8-4d30-ac1d-63ac9740cbb7")
+	(uuid "69683b05-21b2-4c35-8250-16af1e8ad9d4")
 	(paper "A3")
 	(lib_symbols
 		(symbol "Connector:TestPoint"
@@ -6436,7 +6436,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CSI"
+		(property "Value" "CP1_CSI"
 			(at 107.95 100.8379 0)
 			(effects
 				(font
@@ -6510,7 +6510,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 234.95 69.85 0)
 			(effects
 				(font
@@ -8559,7 +8559,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 234.95 102.87 0)
 			(effects
 				(font
@@ -8620,7 +8620,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CSO"
+		(property "Value" "CP2_CSO"
 			(at 120.65 100.8379 0)
 			(effects
 				(font
@@ -9032,7 +9032,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
+		(property "Footprint" "Crystal:Crystal_SMD_2016-4Pin_2.0x1.6mm"
 			(at 111.76 153.67 0)
 			(effects
 				(font
