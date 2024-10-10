@@ -7603,7 +7603,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:TF_C393941"
+		(property "Footprint" "Library:TF-101A-P3"
 			(at 292.1 34.29 0)
 			(effects
 				(font
@@ -7612,7 +7612,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110151630_XKB-Connectivity-XKTF-015-N_C381082.pdf"
+		(property "Datasheet" ""
 			(at 240.03 49.53 0)
 			(effects
 				(font
@@ -7621,7 +7621,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Micro SD Card Socket with one card detection pin"
+		(property "Description" ""
 			(at 240.03 52.07 0)
 			(effects
 				(font
