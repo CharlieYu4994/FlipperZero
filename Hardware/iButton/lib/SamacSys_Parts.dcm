@@ -84,4 +84,10 @@ K
 F https://www.lcsc.com/datasheet/lcsc_datasheet_2208151830_JUSHUO-AFH34-S06FIA-1H_C5139821.pdf
 $ENDCMP
 #
+$CMP LMV358AIDGKR
+D Dual Low-Voltage Cost-Optimized Rail-to-Rail Output Operational Amplifier
+K
+F http://www.ti.com/lit/gpn/lmv358a
+$ENDCMP
+#
 #End Doc Library
