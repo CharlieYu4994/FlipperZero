@@ -9851,7 +9851,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
-		(fields_autoplaced yes)
 		(uuid "90c846e9-dc2e-45c3-8118-9bdfdb35bcc8")
 		(property "Reference" "R21"
 			(at 149.86 72.39 90)

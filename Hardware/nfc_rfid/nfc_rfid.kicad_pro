@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.1016
+          "min_clearance": 0.1524
         }
       },
       "diff_pair_dimensions": [
@@ -60,7 +60,7 @@
         {
           "gap": 0.254,
           "via_gap": 0.254,
-          "width": 0.2032
+          "width": 0.3048
         }
       ],
       "drc_exclusions": [],
@@ -123,7 +123,7 @@
         "max_error": 0.005,
         "min_clearance": 0.0,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.5,
+        "min_copper_edge_clearance": 0.381,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
@@ -185,6 +185,10 @@
       "track_widths": [
         0.0,
         0.254,
+        0.3048,
+        0.3556,
+        0.4572,
+        0.508,
         0.5588
       ],
       "tuning_pattern_settings": {
@@ -221,6 +225,10 @@
         {
           "diameter": 0.45,
           "drill": 0.3
+        },
+        {
+          "diameter": 0.635,
+          "drill": 0.381
         }
       ],
       "zones_allow_external_fillets": false
@@ -463,9 +471,9 @@
       {
         "bus_width": 12,
         "clearance": 0.1,
-        "diff_pair_gap": 0.25,
+        "diff_pair_gap": 0.2032,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
+        "diff_pair_width": 0.3,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
