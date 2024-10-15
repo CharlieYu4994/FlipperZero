@@ -5,3 +5,6 @@
 [submodule "flipper-enclave-manager"]
 	path = flipper-enclave-manager
 	url = https://github.com/shilapi/flipper-enclave-manager
+[submodule "Hardware/FlipperZero-ST-Link_v3_devboard"]
+	path = Hardware/FlipperZero-ST-Link_v3_devboard
+	url = https://github.com/shilapi/FlipperZero-ST-Link_v3_devboard
