@@ -1401,25 +1401,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at 21.59 7.62 0)
+			(property "Reference" "J3"
+				(at 12.7 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
-			(property "Value" "FH34SRJ-18S-0.5SH_50_"
-				(at 21.59 5.08 0)
+			(property "Value" "HC-FPC-05-09-18RLTAG"
+				(at 12.7 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
-			(property "Footprint" "FH34SRJ18S05SH50"
+			(property "Footprint" "Library:CONN18x1_FH34SRJ-18S-0.5SH50_HIR"
 				(at 21.59 -94.92 0)
 				(effects
 					(font
@@ -1691,6 +1689,24 @@
 					)
 				)
 				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at 25.4 -40.64 180)
 					(length 5.08)
 					(name "2"
@@ -1701,6 +1717,24 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1827,42 +1861,6 @@
 						)
 					)
 					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "MP1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MP1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "MP2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MP2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3934,7 +3932,7 @@
 		(at 190.5 52.07 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "00b8feed-12c5-470d-ae86-cf2f2159ab4d")
@@ -4001,7 +3999,7 @@
 		(at 208.28 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "0630fbdb-9fcc-4c8a-8706-30df33ab4f2a")
@@ -4134,7 +4132,7 @@
 		(at 109.22 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "08f8b3d6-6d0b-4d6d-8f9e-c2a9c1c1533c")
@@ -4267,7 +4265,7 @@
 		(at 220.98 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "1be8efb7-3694-46d8-8d82-45474ff9a47a")
@@ -4522,7 +4520,7 @@
 		(pin "12"
 			(uuid "5c52828a-1665-4b11-9d32-ceb81ab9c964")
 		)
-		(pin "MP1"
+		(pin "20"
 			(uuid "bb1792df-a0f9-4214-b082-aa36db2af387")
 		)
 		(pin "16"
@@ -4546,7 +4544,7 @@
 		(pin "5"
 			(uuid "ecddc8b2-9d68-4c72-a22c-0467531638ad")
 		)
-		(pin "MP2"
+		(pin "19"
 			(uuid "8422fd38-1d05-4fc5-8257-030b4f8cdf42")
 		)
 		(pin "18"
@@ -4578,7 +4576,7 @@
 		(at 127 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "2dae231c-e996-4f1f-9445-19309e9275be")
@@ -4645,7 +4643,7 @@
 		(at 121.92 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "32164a6d-acee-4dda-bb1c-32125021ddc5")
@@ -4712,7 +4710,7 @@
 		(at 111.76 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "34406477-b589-4f42-91fd-e90696e468f2")
@@ -4847,7 +4845,7 @@
 		(at 101.6 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "413a6044-9a5b-431a-a414-906b5ae09807")
@@ -4914,7 +4912,7 @@
 		(at 106.68 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "4143dab2-b2d5-4767-9e93-6a97b0ba3884")
@@ -5172,7 +5170,7 @@
 		(at 223.52 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "5768ef75-2c25-42ad-a054-4b2bd7afdb8e")
@@ -5239,7 +5237,7 @@
 		(at 248.92 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "59861b8c-6da7-408e-b7f1-e2b412700ab8")
@@ -5306,7 +5304,7 @@
 		(at 114.3 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "67837b27-9569-4af4-b3bb-51ef03fcca37")
@@ -5373,7 +5371,7 @@
 		(at 246.38 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "6b014b84-eee5-4834-8308-84afcaa86007")
@@ -5440,7 +5438,7 @@
 		(at 129.54 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "751e762d-1ed4-4f92-abd4-97efeb2ef4b4")
@@ -5899,7 +5897,7 @@
 		(at 204.47 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "9a3aeebd-a43c-4a39-8c1e-e37b149a4275")
@@ -5978,7 +5976,7 @@
 				)
 			)
 		)
-		(property "Value" "FAN48610BUC50X"
+		(property "Value" "FAN48610UC50X"
 			(at 69.85 140.97 0)
 			(effects
 				(font
@@ -6239,7 +6237,7 @@
 		(at 233.68 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "bba9a7b9-6fb7-4f9d-9689-8396f925609a")
@@ -6306,7 +6304,7 @@
 		(at 82.55 88.9 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "be69a385-dee3-49bb-94d8-d7dc5d039ba3")
@@ -6373,7 +6371,7 @@
 		(at 119.38 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "c2cc6aed-444f-4041-856b-8dceb32f4b50")
@@ -6440,7 +6438,7 @@
 		(at 104.14 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "c70ebd15-1521-4013-bcce-d997b4495813")
@@ -6573,7 +6571,7 @@
 		(at 128.27 86.36 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "cab0fab8-415d-45f3-9f07-77da1b3c930b")
@@ -6640,7 +6638,7 @@
 		(at 116.84 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "d57b0f7e-139d-4b73-9e38-a7e997485d93")
@@ -6707,7 +6705,7 @@
 		(at 124.46 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "da7cc2fd-949d-48d1-952a-07d04438a4fd")
@@ -7109,7 +7107,7 @@
 		(at 236.22 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "ec9c2fc6-48c1-4c0b-875d-963daa58b287")
@@ -7312,7 +7310,7 @@
 		(at 210.82 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "f7cba597-67d4-479c-b238-2df54493b716")
@@ -7379,7 +7377,7 @@
 		(at 82.55 86.36 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "fd9b6aa4-8124-4a0d-9280-23e119d889c9")
