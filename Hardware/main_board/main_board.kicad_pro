@@ -38,7 +38,7 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.2286,
+          "height": 0.23,
           "width": 0.245
         },
         "silk_line_width": 0.15,
@@ -473,6 +473,23 @@
       {
         "bus_width": 12,
         "clearance": 0.0889,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.0,
+        "microvia_drill": 0.0,
+        "name": "Power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.254,
+        "via_diameter": 0.3778,
+        "via_drill": 0.2,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.0889,
         "diff_pair_gap": 0.1524,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2032,
@@ -497,6 +514,10 @@
       {
         "netclass": "Sense",
         "pattern": "/Power/BAT."
+      },
+      {
+        "netclass": "Power",
+        "pattern": ".3.3.*|VSYS|BAT|VBUS"
       }
     ]
   },
